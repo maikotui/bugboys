@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "bugboys",
+	"version": "${version}",
+	"name": "BugBoysMC",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/bugboys/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.maikotui.bugboys.BugBoysMC"
+		],
+		"client": [
+			"dev.maikotui.bugboys.BugBoysMCClient"
+		],
+		"fabric-datagen": [
+			"dev.maikotui.bugboys.BugBoysMCDataGenerator"
+		]
+	},
+	"mixins": [
+		"bugboys.mixins.json",
+		{
+			"config": "bugboys.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
