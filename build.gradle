@@ -21,13 +21,30 @@ repositories {
 			includeGroup "maven.modrinth"
 		}
 	}
-
 	maven { url = "https://maven.shedaniel.me/" }
 	maven { url = "https://maven.terraformersmc.com/releases/" }
-	maven { url = "https://maven.kosmx.dev/" }
-	maven { url = "https://maven.azuredoom.com/mods" }
 	maven { url = "https://jitpack.io" }
 	maven { url = 'https://maven.ladysnake.org/releases' }
+
+	// Player Anim Lib
+	maven { url = "https://maven.kosmx.dev/" }
+
+	// AzureLibArmor
+	maven { url = "https://maven.azuredoom.com/mods" }
+
+	// Origins
+	maven {
+		url = 'https://maven.cafeteria.dev'
+		content {
+			includeGroup 'net.adriantodt.fabricmc'
+		}
+	}
+	maven {
+		url "https://maven.jamieswhiteshirt.com/libs-release"
+		content {
+			includeGroup "com.jamieswhiteshirt"
+		}
+	}
 }
 
 loom {
@@ -65,15 +82,17 @@ dependencies {
 	modImplementation "maven.modrinth:structure-pool-api:${structure_pool_api_version}" // Hidden dep of Wizards
 	implementation include("com.github.ZsoltMolnarrr:TinyConfig:${tinyconfig_version}") // Hidden dep of SpellPower
 	modImplementation "dev.emi:trinkets:${trinkets_version}"
+	testImplementation 'com.google.code.findbugs:jsr305:3.0.2' // Hidden dep for Trinkets
 
 	// Revelationary
 	modImplementation "maven.modrinth:revelationary:${revelationary_version}"
 
+	// Origins
+	modImplementation "com.github.apace100:origins-fabric:${project.origins_version}"
+
 	// Other Core Mods
 	modApi "me.shedaniel.cloth:cloth-config-fabric:${cloth_config_version}"
 	modApi "com.terraformersmc:modmenu:${mod_menu_version}"
-
-	testImplementation 'com.google.code.findbugs:jsr305:3.0.2' // For Trinkets?
 }
 
 processResources {
