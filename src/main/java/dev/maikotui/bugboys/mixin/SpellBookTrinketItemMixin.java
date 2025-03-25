@@ -4,12 +4,12 @@ import de.dafuqs.revelationary.api.revelations.RevelationAware;
 import dev.emi.trinkets.api.SlotReference;
 import dev.emi.trinkets.api.Trinket;
 import dev.emi.trinkets.api.TrinketItem;
+import dev.maikotui.bugboys.BugBoysMC;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.Items;
 import net.minecraft.text.MutableText;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
@@ -33,11 +33,12 @@ import java.util.Map;
 public abstract class SpellBookTrinketItemMixin implements RevelationAware, Trinket {
 
 	@Unique
-	private static final Identifier CLOAK_ADVANCEMENT = new Identifier("bugboys", "unlock_spellbooks");
+	private Identifier cloakAdvancement;
 
 	@Inject(method = "<init>", at = @At("RETURN"))
 	private void onConstruct(Identifier poolId, Item.Settings settings, CallbackInfo ci) {
-		System.out.println("WE CONSTRUCTED");
+		this.cloakAdvancement = new Identifier("bugboys", "unlock_spellbook_" + poolId.getPath());
+        BugBoysMC.LOGGER.info("Spellbook '{}' is looking for advancement '{}'", poolId, this.cloakAdvancement);
 		RevelationAware.register(this);
 	}
 
@@ -46,7 +47,7 @@ public abstract class SpellBookTrinketItemMixin implements RevelationAware, Trin
 	 */
 	@Override
 	public Identifier getCloakAdvancementIdentifier() {
-		return CLOAK_ADVANCEMENT;
+		return this.cloakAdvancement;
 	}
 
 	@Override
@@ -82,7 +83,6 @@ public abstract class SpellBookTrinketItemMixin implements RevelationAware, Trin
 	@Override
 	public void onUncloak() {
 		// Optional: Add visual/sound effects
-		System.out.println("HERES A THING THAT HAPPENED");
 	}
 
 	/**

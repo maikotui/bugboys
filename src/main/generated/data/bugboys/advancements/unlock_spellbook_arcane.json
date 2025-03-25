@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "injected": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancement.bugboys.unlock_spellbook_arcane.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:enchanted_book"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancement.bugboys.unlock_spellbook_arcane.title"
+    }
+  },
+  "requirements": [
+    [
+      "injected"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

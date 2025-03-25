@@ -1,4 +1,5 @@
 {
   "advancement.bugboys.unlock_spellbooks.title": "Unlock Spellbooks",
-  "advancement.bugboys.unlock_spellbooks.description": "You are now worthy to wield magical knowledge."
+  "advancement.bugboys.unlock_spellbooks.description": "You are now worthy to wield magical knowledge.",
+  "item.bugboys.cloaked_spellbook": "??? Spell Book"
 }
