@@ -5,6 +5,7 @@ import net.minecraft.advancement.AdvancementProgress;
 import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
+import net.puffish.skillsmod.SkillsMod;
 
 import java.util.List;
 import java.util.Objects;
@@ -14,6 +15,10 @@ public class Utils {
             // Wizards
             "arcane", "fire", "frost"
     );
+
+    public static String GenerateSpellbookAdvancementPath(String spellbookId) {
+        return "unlock_spellbook_" + spellbookId;
+    }
 
     public static void RevokeAllSpellbookAdvancements(ServerPlayerEntity player) {
         for (String spellbookId : SPELLBOOK_IDS) {
@@ -33,7 +38,12 @@ public class Utils {
         }
     }
 
-    public static String GenerateSpellbookAdvancementPath(String spellbookId) {
-        return "unlock_spellbook_" + spellbookId;
+    public static void ResetPufferfishSkillsCategory(ServerPlayerEntity player, Identifier categoryId) {
+        SkillsMod skillsMod = SkillsMod.getInstance();
+        int spentPoints = skillsMod.getSpentPoints(player, categoryId).orElse(0);
+        int refundAmount = spentPoints * 1;
+        skillsMod.resetSkills(player, categoryId);
+        skillsMod.addPoints(player, categoryId, new Identifier("bugboys", "orb_refund"), refundAmount, false);
+        player.sendMessage(Text.literal("Your skill tree has been reset. " + refundAmount + " points refunded."), false);
     }
 }
