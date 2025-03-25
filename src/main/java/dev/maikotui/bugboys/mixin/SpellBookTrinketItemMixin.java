@@ -3,7 +3,6 @@ package dev.maikotui.bugboys.mixin;
 import de.dafuqs.revelationary.api.revelations.RevelationAware;
 import dev.emi.trinkets.api.SlotReference;
 import dev.emi.trinkets.api.Trinket;
-import dev.emi.trinkets.api.TrinketItem;
 import dev.maikotui.bugboys.BugBoysMC;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
