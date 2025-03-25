@@ -43,21 +43,5 @@ public class BugBoysAdvancementProvider extends FabricAdvancementProvider {
 
             consumer.accept(advancement);
         }
-        Advancement unlockSpellbooks = Advancement.Builder.create()
-                .display(
-                        Items.ENCHANTED_BOOK, // Icon
-                        Text.translatable("advancement.bugboys.unlock_spellbooks.title"), // Title
-                        Text.translatable("advancement.bugboys.unlock_spellbooks.description"), // Description
-                        null, // Background
-                        AdvancementFrame.TASK, // Frame type
-                        true, // Show toast
-                        true, // Announce to chat
-                        false // Hidden
-                )
-                .criterion("has_enchanted_book",
-                        InventoryChangedCriterion.Conditions.items(Items.ENCHANTED_BOOK))
-                .build(new Identifier("bugboys", "unlock_spellbooks"));
-
-        consumer.accept(unlockSpellbooks);
     }
 }

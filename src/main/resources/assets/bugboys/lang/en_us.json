@@ -1,5 +1,9 @@
 {
-  "advancement.bugboys.unlock_spellbooks.title": "Unlock Spellbooks",
-  "advancement.bugboys.unlock_spellbooks.description": "You are now worthy to wield magical knowledge.",
-  "item.bugboys.cloaked_spellbook": "??? Spell Book"
+  "item.bugboys.cloaked_spellbook": "??? Spell Book",
+  "advancement.bugboys.unlock_spellbook_fire.title": "Unlock the Flamebound Tome",
+  "advancement.bugboys.unlock_spellbook_fire.description": "Prove your affinity with fire to wield searing magic.",
+  "advancement.bugboys.unlock_spellbook_frost.title": "Unlock the Glacierbound Tome",
+  "advancement.bugboys.unlock_spellbook_frost.description": "Demonstrate control over frost to shape ice into spells.",
+  "advancement.bugboys.unlock_spellbook_arcane.title": "Unlock the Arcane Codex",
+  "advancement.bugboys.unlock_spellbook_arcane.description": "Channel the raw, unfiltered forces of the arcane."
 }
