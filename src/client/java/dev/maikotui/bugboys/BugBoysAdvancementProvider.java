@@ -9,22 +9,19 @@ import net.minecraft.item.Items;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
-import java.util.List;
 import java.util.function.Consumer;
 
-public class BugBoysAdvancementProvider extends FabricAdvancementProvider {
+import static dev.maikotui.bugboys.Utils.SPELLBOOK_IDS;
 
+public class BugBoysAdvancementProvider extends FabricAdvancementProvider {
     protected BugBoysAdvancementProvider(FabricDataOutput output) {
         super(output);
     }
 
     @Override
     public void generateAdvancement(Consumer<Advancement> consumer) {
-        List<String> spellbookIds = List.of(
-            "arcane", "fire", "frost" // Wizards books
-        );
-        for (String id : spellbookIds) {
-            String advancementId = "unlock_spellbook_" + id;
+        for (String id : SPELLBOOK_IDS) {
+            String advancementId = Utils.GenerateSpellbookAdvancementPath(id);
 
             Advancement advancement = Advancement.Builder.create()
                     .display(
