@@ -45,6 +45,9 @@ repositories {
 			includeGroup "com.jamieswhiteshirt"
 		}
 	}
+
+	// Pufferfish Skills
+	maven { url = "https://maven.puffish.net" }
 }
 
 loom {
@@ -88,7 +91,10 @@ dependencies {
 	modImplementation "maven.modrinth:revelationary:${revelationary_version}"
 
 	// Origins
-	modImplementation "com.github.apace100:origins-fabric:${project.origins_version}"
+	modImplementation "com.github.apace100:origins-fabric:${origins_version}"
+
+	// Pufferfish Skills
+	modImplementation("net.puffish:skillsmod:${puffish_skills_version}:fabric")
 
 	// Other Core Mods
 	modApi "me.shedaniel.cloth:cloth-config-fabric:${cloth_config_version}"
