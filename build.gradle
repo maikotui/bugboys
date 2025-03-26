@@ -48,6 +48,9 @@ repositories {
 
 	// Pufferfish Skills
 	maven { url = "https://maven.puffish.net" }
+
+	// Zenith (needs PortingLib)
+	maven { url = "https://mvn.devos.one/releases/" }
 }
 
 loom {
@@ -107,7 +110,13 @@ dependencies {
 	modImplementation "com.github.apace100:origins-fabric:${origins_version}"
 
 	// Pufferfish Skills
-	modImplementation("net.puffish:skillsmod:${puffish_skills_version}:fabric")
+	modImplementation "net.puffish:skillsmod:${puffish_skills_version}:fabric"
+
+	// Zenith
+	modImplementation "maven.modrinth:zenith-attributes:${zenith_attributes_version}" // TODO: Remove these after testing
+	modImplementation "maven.modrinth:fakerlib:${faker_lib_version}"
+	modImplementation(include("io.github.fabricators_of_create.Porting-Lib:extensions:${porting_lib_version}"))
+	modImplementation(include("io.github.fabricators_of_create.Porting-Lib:entity:${porting_lib_version}"))
 
 	// Other Core Mods
 	modApi "me.shedaniel.cloth:cloth-config-fabric:${cloth_config_version}"
