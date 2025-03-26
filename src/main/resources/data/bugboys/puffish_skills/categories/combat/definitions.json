@@ -1,0 +1,950 @@
+{
+    "root_dexterity": {
+        "title": "Root Dexterity",
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "value": 0.05,
+                    "operation": "add"
+                }
+            }
+        ],
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "minecraft:feather"
+            }
+        },
+        "metadata": {
+            "icon": "f63w5sulu63ecyn8"
+        }
+    },
+    "attribute_dexterity_arrow_damage": {
+        "title": "Attribute Dexterity Arrow Damage",
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "zenith_attributes:arrow_damage",
+                    "value": 0.1,
+                    "operation": "add"
+                }
+            }
+        ],
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "minecraft:arrow"
+            }
+        },
+        "metadata": {
+            "icon": "vd51eobwe5bx90at"
+        }
+    },
+    "attribute_dexterity_crit_chance": {
+        "title": "Attribute Dexterity Crit Chance",
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "spell_power:critical_chance",
+                    "value": 0.05,
+                    "operation": "add"
+                }
+            }
+        ],
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "minecraft:diamond"
+            }
+        },
+        "metadata": {
+            "icon": "0u7w4b7fbtehleqk"
+        }
+    },
+    "attribute_dexterity_dodge_chance": {
+        "title": "Attribute Dexterity Dodge Chance",
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "zenith_attributes:dodge_chance",
+                    "value": 0.05,
+                    "operation": "add"
+                }
+            }
+        ],
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "minecraft:phantom_membrane"
+            }
+        },
+        "metadata": {
+            "icon": "wk94wohr80r9ga4v"
+        }
+    },
+    "attribute_dexterity_draw_speed": {
+        "title": "Attribute Dexterity Draw Speed",
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "zenith_attributes:draw_speed",
+                    "value": 0.1,
+                    "operation": "add"
+                }
+            }
+        ],
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "minecraft:bow"
+            }
+        },
+        "metadata": {
+            "icon": "d6z3zee14riu3ytr"
+        }
+    },
+    "attribute_dexterity_move_speed": {
+        "title": "Attribute Dexterity Move Speed",
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "value": 0.05,
+                    "operation": "add"
+                }
+            }
+        ],
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "minecraft:rabbit_foot"
+            }
+        },
+        "metadata": {
+            "icon": "vltk86nmatrmbxwa"
+        }
+    },
+    "attribute_dexterity_zenith_crit_chance": {
+        "title": "Attribute Dexterity Zenith Crit Chance",
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "zenith_attributes:crit_chance",
+                    "value": 0.05,
+                    "operation": "add"
+                }
+            }
+        ],
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "minecraft:flint"
+            }
+        },
+        "metadata": {
+            "icon": "kde2iyqpo1342g54"
+        }
+    },
+    "skill_dexterity_backstab": {
+        "title": "Skill Dexterity Backstab",
+        "rewards": [
+            {
+                "type": "puffish_skills:command",
+                "data": {
+                    "unlock_command": "advancement grant @s only bugboys:backstab",
+                    "lock_command": "advancement revoke @s only bugboys:backstab"
+                }
+            }
+        ],
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "minecraft:iron_sword"
+            }
+        },
+        "metadata": {
+            "icon": "mxvd1ktv9cn3ug3k"
+        }
+    },
+    "skill_dexterity_poison_blade": {
+        "title": "Skill Dexterity Poison Blade",
+        "rewards": [
+            {
+                "type": "puffish_skills:command",
+                "data": {
+                    "unlock_command": "advancement grant @s only bugboys:poison_blade",
+                    "lock_command": "advancement revoke @s only bugboys:poison_blade"
+                }
+            }
+        ],
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "minecraft:spider_eye"
+            }
+        },
+        "metadata": {
+            "icon": "7hd5z2w9p5d3wdfj"
+        }
+    },
+    "root_intellect": {
+        "title": "Root Intellect",
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "spell_power:arcane",
+                    "value": 1,
+                    "operation": "add"
+                }
+            }
+        ],
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "minecraft:book"
+            }
+        },
+        "metadata": {
+            "icon": "placeholder_icon_id_for_intellect"
+        }
+    },
+    "attribute_intellect_arcane": {
+        "title": "Attribute Intellect Arcane",
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "spell_power:arcane",
+                    "value": 1,
+                    "operation": "add"
+                }
+            }
+        ],
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "minecraft:amethyst_block"
+            }
+        },
+        "metadata": {
+            "icon": "ndq0d98rcu2dckc8"
+        }
+    },
+    "attribute_intellect_fire": {
+        "title": "Attribute Intellect Fire",
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "spell_power:fire",
+                    "value": 1,
+                    "operation": "add"
+                }
+            }
+        ],
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "minecraft:blaze_rod"
+            }
+        },
+        "metadata": {
+            "icon": "jbuhggj8odvqwen6"
+        }
+    },
+    "attribute_intellect_frost": {
+        "title": "Attribute Intellect Frost",
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "spell_power:frost",
+                    "value": 1,
+                    "operation": "add"
+                }
+            }
+        ],
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "minecraft:snowball"
+            }
+        },
+        "metadata": {
+            "icon": "mtymtmlh5ysvikab"
+        }
+    },
+    "attribute_intellect_mana_regen": {
+        "title": "Attribute Intellect Mana Regen",
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "extraspellattributes:serenity",
+                    "value": 0.05,
+                    "operation": "add"
+                }
+            }
+        ],
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "minecraft:experience_bottle"
+            }
+        },
+        "metadata": {
+            "icon": "w284wq9oc8y9xvz3"
+        }
+    },
+    "skill_intellect_arcane_shield": {
+        "title": "Skill Intellect Arcane Shield",
+        "rewards": [
+            {
+                "type": "puffish_skills:command",
+                "data": {
+                    "unlock_command": "advancement grant @s only bugboys:arcane_shield",
+                    "lock_command": "advancement revoke @s only bugboys:arcane_shield"
+                }
+            }
+        ],
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "minecraft:shulker_shell"
+            }
+        },
+        "metadata": {
+            "icon": "ep410gd2374q4vjr"
+        }
+    },
+    "skill_intellect_quick_cast": {
+        "title": "Skill Intellect Quick Cast",
+        "rewards": [
+            {
+                "type": "puffish_skills:command",
+                "data": {
+                    "unlock_command": "advancement grant @s only bugboys:quick_cast",
+                    "lock_command": "advancement revoke @s only bugboys:quick_cast"
+                }
+            }
+        ],
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "minecraft:clock"
+            }
+        },
+        "metadata": {
+            "icon": "l5npabsborghmxri"
+        }
+    },
+    "skill_intellect_summon_skeleton": {
+        "title": "Skill Intellect Summon Skeleton",
+        "rewards": [
+            {
+                "type": "puffish_skills:command",
+                "data": {
+                    "unlock_command": "advancement grant @s only bugboys:summon_skeleton",
+                    "lock_command": "advancement revoke @s only bugboys:summon_skeleton"
+                }
+            }
+        ],
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "minecraft:bone"
+            }
+        },
+        "metadata": {
+            "icon": "ycn9t414ifw7y31l"
+        }
+    },
+    "root_strength": {
+        "title": "Root Strength",
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "value": 1,
+                    "operation": "add"
+                }
+            }
+        ],
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "minecraft:iron_sword"
+            }
+        },
+        "metadata": {
+            "icon": "v5ppd0tq8s6rqbrv"
+        }
+    },
+    "attribute_strength_armor_shred": {
+        "title": "Attribute Strength Armor Shred",
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "zenith_attributes:armor_shred",
+                    "value": 0.05,
+                    "operation": "add"
+                }
+            }
+        ],
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "minecraft:shears"
+            }
+        },
+        "metadata": {
+            "icon": "he7ojv4wju36wjjl"
+        }
+    },
+    "attribute_strength_attack_damage": {
+        "title": "Attribute Strength Attack Damage",
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "value": 1,
+                    "operation": "add"
+                }
+            }
+        ],
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "minecraft:stone_sword"
+            }
+        },
+        "metadata": {
+            "icon": "srswjhiwilmexff9"
+        }
+    },
+    "attribute_strength_attack_range": {
+        "title": "Attribute Strength Attack Range",
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "reach-entity-attributes:attack_range",
+                    "value": 0.5,
+                    "operation": "add"
+                }
+            }
+        ],
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "minecraft:spyglass"
+            }
+        },
+        "metadata": {
+            "icon": "ap13wedshq3dz56y"
+        }
+    },
+    "attribute_strength_crit_damage": {
+        "title": "Attribute Strength Crit Damage",
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "spell_power:critical_damage",
+                    "value": 0.05,
+                    "operation": "add"
+                }
+            }
+        ],
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "minecraft:amethyst_shard"
+            }
+        },
+        "metadata": {
+            "icon": "5icb4sfzav973mpx"
+        }
+    },
+    "attribute_strength_knockback": {
+        "title": "Attribute Strength Knockback",
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "value": 0.25,
+                    "operation": "add"
+                }
+            }
+        ],
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "minecraft:piston"
+            }
+        },
+        "metadata": {
+            "icon": "w0qddin891g5sem1"
+        }
+    },
+    "attribute_strength_knockback_resist": {
+        "title": "Attribute Strength Knockback Resist",
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "value": 0.1,
+                    "operation": "add"
+                }
+            }
+        ],
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "minecraft:obsidian"
+            }
+        },
+        "metadata": {
+            "icon": "5ank2o1ml3l8d9yv"
+        }
+    },
+    "skill_strength_berserker_rage": {
+        "title": "Skill Strength Berserker Rage",
+        "rewards": [
+            {
+                "type": "puffish_skills:command",
+                "data": {
+                    "unlock_command": "advancement grant @s only bugboys:berserker_rage",
+                    "lock_command": "advancement revoke @s only bugboys:berserker_rage"
+                }
+            }
+        ],
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "minecraft:blaze_powder"
+            }
+        },
+        "metadata": {
+            "icon": "2k46fkz9xp9gfic8"
+        }
+    },
+    "skill_strength_momentum": {
+        "title": "Skill Strength Momentum",
+        "rewards": [
+            {
+                "type": "puffish_skills:command",
+                "data": {
+                    "unlock_command": "advancement grant @s only bugboys:momentum",
+                    "lock_command": "advancement revoke @s only bugboys:momentum"
+                }
+            }
+        ],
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "minecraft:sugar"
+            }
+        },
+        "metadata": {
+            "icon": "cypxo2x0azt58nnm"
+        }
+    },
+    "skill_strength_power_attack": {
+        "title": "Skill Strength Power Attack",
+        "rewards": [
+            {
+                "type": "puffish_skills:command",
+                "data": {
+                    "unlock_command": "advancement grant @s only bugboys:power_attack",
+                    "lock_command": "advancement revoke @s only bugboys:power_attack"
+                }
+            }
+        ],
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "minecraft:netherite_sword"
+            }
+        },
+        "metadata": {
+            "icon": "guivvvr8uftti7fo"
+        }
+    },
+    "skill_strength_weapon_mastery": {
+        "title": "Skill Strength Weapon Mastery",
+        "rewards": [
+            {
+                "type": "puffish_skills:command",
+                "data": {
+                    "unlock_command": "advancement grant @s only bugboys:weapon_mastery",
+                    "lock_command": "advancement revoke @s only bugboys:weapon_mastery"
+                }
+            }
+        ],
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "minecraft:anvil"
+            }
+        },
+        "metadata": {
+            "icon": "euxxjuz7lyzpwr6q"
+        }
+    },
+    "root_vitality": {
+        "title": "Root Vitality",
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "minecraft:generic.max_health",
+                    "value": 2,
+                    "operation": "add"
+                }
+            }
+        ],
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "minecraft:golden_apple"
+            }
+        },
+        "metadata": {
+            "icon": "erore3gnmwzkjncg"
+        }
+    },
+    "attribute_vitality_healing_received": {
+        "title": "Attribute Vitality Healing Received",
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "zenith_attributes:healing_received",
+                    "value": 0.05,
+                    "operation": "add"
+                }
+            }
+        ],
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "minecraft:ghast_tear"
+            }
+        },
+        "metadata": {
+            "icon": "g4oms97w69o4ljwa"
+        }
+    },
+    "attribute_vitality_life_steal": {
+        "title": "Attribute Vitality Life Steal",
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "zenith_attributes:life_steal",
+                    "value": 0.02,
+                    "operation": "add"
+                }
+            }
+        ],
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "minecraft:nether_wart"
+            }
+        },
+        "metadata": {
+            "icon": "pyu010q7w5ib05n5"
+        }
+    },
+    "attribute_vitality_max_health": {
+        "title": "Attribute Vitality Max Health",
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "minecraft:generic.max_health",
+                    "value": 2,
+                    "operation": "add"
+                }
+            }
+        ],
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "minecraft:apple"
+            }
+        },
+        "metadata": {
+            "icon": "43dj3ximrchr5076"
+        }
+    },
+    "attribute_vitality_overheal": {
+        "title": "Attribute Vitality Overheal",
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "zenith_attributes:overheal",
+                    "value": 1,
+                    "operation": "add"
+                }
+            }
+        ],
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "minecraft:sweet_berries"
+            }
+        },
+        "metadata": {
+            "icon": "bq2b9seelz422b3s"
+        }
+    },
+    "skill_vitality_divine_barrier": {
+        "title": "Skill Vitality Divine Barrier",
+        "rewards": [
+            {
+                "type": "puffish_skills:command",
+                "data": {
+                    "unlock_command": "advancement grant @s only bugboys:divine_barrier",
+                    "lock_command": "advancement revoke @s only bugboys:divine_barrier"
+                }
+            }
+        ],
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "minecraft:totem_of_undying"
+            }
+        },
+        "metadata": {
+            "icon": "4evyyt7rbz8wji8x"
+        }
+    },
+    "skill_vitality_endurance": {
+        "title": "Skill Vitality Endurance",
+        "rewards": [
+            {
+                "type": "puffish_skills:command",
+                "data": {
+                    "unlock_command": "advancement grant @s only bugboys:endurance",
+                    "lock_command": "advancement revoke @s only bugboys:endurance"
+                }
+            }
+        ],
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "minecraft:turtle_helmet"
+            }
+        },
+        "metadata": {
+            "icon": "j6wyhk75370klbqi"
+        }
+    },
+    "skill_vitality_healing_pulse": {
+        "title": "Skill Vitality Healing Pulse",
+        "rewards": [
+            {
+                "type": "puffish_skills:command",
+                "data": {
+                    "unlock_command": "advancement grant @s only bugboys:healing_pulse",
+                    "lock_command": "advancement revoke @s only bugboys:healing_pulse"
+                }
+            }
+        ],
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "minecraft:splash_potion"
+            }
+        },
+        "metadata": {
+            "icon": "qa1zcs9dtb2p4syo"
+        }
+    },
+    "end_archer": {
+        "title": "End Archer",
+        "rewards": [
+            {
+                "type": "puffish_skills:command",
+                "data": {
+                    "unlock_command": "advancement grant @s only bugboys:class_archer",
+                    "lock_command": "advancement revoke @s only bugboys:class_archer"
+                }
+            }
+        ],
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "minecraft:target"
+            }
+        },
+        "metadata": {
+            "icon": "57pud115nhqlf7jf"
+        }
+    },
+    "end_beserker": {
+        "title": "End Beserker",
+        "rewards": [
+            {
+                "type": "puffish_skills:command",
+                "data": {
+                    "unlock_command": "advancement grant @s only bugboys:class_beserker",
+                    "lock_command": "advancement revoke @s only bugboys:class_beserker"
+                }
+            }
+        ],
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "minecraft:iron_sword"
+            }
+        },
+        "metadata": {
+            "icon": "ucrroazrdx5nxcbm"
+        }
+    },
+    "end_elementalist": {
+        "title": "End Elementalist",
+        "rewards": [
+            {
+                "type": "puffish_skills:command",
+                "data": {
+                    "unlock_command": "advancement grant @s only bugboys:class_elementalist",
+                    "lock_command": "advancement revoke @s only bugboys:class_elementalist"
+                }
+            }
+        ],
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "minecraft:enchanted_book"
+            }
+        },
+        "metadata": {
+            "icon": "2pzqfoslaadn1vtm"
+        }
+    },
+    "end_knight": {
+        "title": "End Knight",
+        "rewards": [
+            {
+                "type": "puffish_skills:command",
+                "data": {
+                    "unlock_command": "advancement grant @s only bugboys:class_knight",
+                    "lock_command": "advancement revoke @s only bugboys:class_knight"
+                }
+            }
+        ],
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "minecraft:shield"
+            }
+        },
+        "metadata": {
+            "icon": "axncwmqcrwdx3vlg"
+        }
+    },
+    "end_necromancer": {
+        "title": "End Necromancer",
+        "rewards": [
+            {
+                "type": "puffish_skills:command",
+                "data": {
+                    "unlock_command": "advancement grant @s only bugboys:class_necromancer",
+                    "lock_command": "advancement revoke @s only bugboys:class_necromancer"
+                }
+            }
+        ],
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "minecraft:wither_skeleton_skull"
+            }
+        },
+        "metadata": {
+            "icon": "qbakxe5ynkin69fz"
+        }
+    },
+    "end_paladin": {
+        "title": "End Paladin",
+        "rewards": [
+            {
+                "type": "puffish_skills:command",
+                "data": {
+                    "unlock_command": "advancement grant @s only bugboys:class_paladin",
+                    "lock_command": "advancement revoke @s only bugboys:class_paladin"
+                }
+            }
+        ],
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "minecraft:golden_sword"
+            }
+        },
+        "metadata": {
+            "icon": "zb3kbypftnunld2t"
+        }
+    },
+    "end_rogue": {
+        "title": "End Rogue",
+        "rewards": [
+            {
+                "type": "puffish_skills:command",
+                "data": {
+                    "unlock_command": "advancement grant @s only bugboys:class_rogue",
+                    "lock_command": "advancement revoke @s only bugboys:class_rogue"
+                }
+            }
+        ],
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "minecraft:crossbow"
+            }
+        },
+        "metadata": {
+            "icon": "k8nfvln05hjv5s8a"
+        }
+    },
+    "end_spellblade": {
+        "title": "End Spellblade",
+        "rewards": [
+            {
+                "type": "puffish_skills:command",
+                "data": {
+                    "unlock_command": "advancement grant @s only bugboys:class_spellblade",
+                    "lock_command": "advancement revoke @s only bugboys:class_spellblade"
+                }
+            }
+        ],
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "minecraft:diamond_sword"
+            }
+        },
+        "metadata": {
+            "icon": "1ke048jpj5w0tpiv"
+        }
+    }
+}

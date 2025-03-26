@@ -1,0 +1,74 @@
+{
+	"qn8xd9t1957qo2dn": {
+		"definition": "root_dexterity",
+		"x": 0,
+		"y": 32,
+		"root": true
+	},
+	"vl2l4z3gpg79hwt5": {
+		"definition": "root_intellect",
+		"x": 32,
+		"y": 0,
+		"root": true
+	},
+	"pxareoxkcjsplttt": {
+		"definition": "root_strength",
+		"x": 0,
+		"y": -32,
+		"root": true
+	},
+	"svxksjewmoi9hm43": {
+		"definition": "root_vitality",
+		"x": -32,
+		"y": 0,
+		"root": true
+	},
+	"mxmpvfdcutdwoqve": {
+		"definition": "end_knight",
+		"x": 0,
+		"y": -352,
+		"root": false
+	},
+	"uddt83nyn4ley0h0": {
+		"definition": "end_elementalist",
+		"x": 352,
+		"y": 0,
+		"root": false
+	},
+	"pxho4ftgpknodown": {
+		"definition": "end_rogue",
+		"x": 0,
+		"y": 352,
+		"root": false
+	},
+	"sjdr99unkbxzuwhu": {
+		"definition": "end_paladin",
+		"x": -352,
+		"y": 0,
+		"root": false
+	},
+	"qtirfans1pyb6qoa": {
+		"definition": "end_archer",
+		"x": -352,
+		"y": 352,
+		"root": false
+	},
+	"fr590s6gc0iwb3jd": {
+		"definition": "end_necromancer",
+		"x": 352,
+		"y": 352,
+		"root": false
+	},
+	"2rw5zzw5qfc7bitq": {
+		"definition": "end_beserker",
+		"x": -352,
+		"y": -352,
+		"root": false
+	},
+	"7u2f9wnypvl41j5t": {
+		"definition": "end_spellblade",
+		"x": 352,
+		"y": -352,
+		"root": false
+	}
+}
