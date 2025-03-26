@@ -77,15 +77,23 @@ dependencies {
 
 	// RPG Series Mods
 	modImplementation "maven.modrinth:spell-engine:${spell_engine_version}"
-	modImplementation "maven.modrinth:wizards:${wizards_version}"
-	modImplementation "maven.modrinth:runes:${runes_version}"
 	modImplementation "maven.modrinth:spell-power:${spell_power_version}"
+	modImplementation "maven.modrinth:wizards:${wizards_version}"
+	modImplementation "maven.modrinth:archers:${archers_version}"
+	modImplementation "maven.modrinth:paladins-and-priests:${paladins_and_priests_version}"
+	modImplementation "maven.modrinth:rogues-and-warriors:${rogues_and_warriors_version}"
+	modImplementation "maven.modrinth:death-knights:${death_knights_version}"
+	modImplementation "maven.modrinth:runes:${runes_version}"
 	modImplementation "mod.azure.azurelibarmor:azurelibarmor-fabric-1.20.1:${azurelib_armor_version}"
 	modImplementation "dev.kosmx.player-anim:player-animation-lib-fabric:${player_animator_version}"
 	modImplementation "maven.modrinth:structure-pool-api:${structure_pool_api_version}" // Hidden dep of Wizards
 	implementation include("com.github.ZsoltMolnarrr:TinyConfig:${tinyconfig_version}") // Hidden dep of SpellPower
 	modImplementation "dev.emi:trinkets:${trinkets_version}"
 	testImplementation 'com.google.code.findbugs:jsr305:3.0.2' // Hidden dep for Trinkets
+	modImplementation "maven.modrinth:ranged-weapon-api:${ranged_weapon_api_version}"
+	modImplementation "maven.modrinth:shield-api:${shield_api_version}"
+	modImplementation "maven.modrinth:necronomicon:${necronomicon_api_version}"
+	modImplementation "maven.modrinth:eternal-attributes:${eternal_attributes_version}"
 
 	// Revelationary
 	modImplementation "maven.modrinth:revelationary:${revelationary_version}"
