@@ -20,6 +20,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 @Mixin(OrbOfOriginItem.class)
 public abstract class OrbOfOriginItemMixin {
 
+    @SuppressWarnings("CodeBlock2Expr")
     @Inject(method = "use", at = @At("HEAD"))
     private void onUse(World world, PlayerEntity user, Hand hand, CallbackInfoReturnable<TypedActionResult<ItemStack>> cir) {
         if (!world.isClient()) {
