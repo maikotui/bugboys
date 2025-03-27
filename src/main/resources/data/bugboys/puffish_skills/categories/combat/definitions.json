@@ -27,6 +27,24 @@
             }
         ]
     },
+    "skill_dexterity_phantom_reflexes": {
+        "title": "Phantom Reflexes",
+        "description": "Temporarily gain increased dodge chance after landing a critical hit.",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "minecraft:ender_pearl"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills_origins:power",
+                "data": {
+                    "power": "bugboys:skilltree/dexterity_phantom_reflexes"
+                }
+            }
+        ]
+    },
     "skill_dexterity_shadow_step": {
         "title": "Shadow Step",
         "description": "Briefly gain invincibility when dodging or evading.",
@@ -205,6 +223,24 @@
             }
         ]
     },
+    "skill_intellect_arcane_surge": {
+        "title": "Arcane Surge",
+        "description": "Gain a burst of spell haste and mana regen when casting consecutive spells.",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "minecraft:enchanted_book"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills_origins:power",
+                "data": {
+                    "power": "bugboys:skilltree/intellect_arcane_surge"
+                }
+            }
+        ]
+    },
     "skill_intellect_elemental_mastery": {
         "title": "Elemental Mastery",
         "description": "Gain bonus spell damage when swapping between spell types.",
@@ -365,6 +401,24 @@
                 "type": "puffish_skills_origins:power",
                 "data": {
                     "power": "bugboys:skilltree/strength_armor_breaker"
+                }
+            }
+        ]
+    },
+    "skill_strength_unyielding_might": {
+        "title": "Unyielding Might",
+        "description": "Increases attack damage after blocking an attack or when using heavy weapons.",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "minecraft:anvil"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills_origins:power",
+                "data": {
+                    "power": "bugboys:skilltree/strength_unyielding_might"
                 }
             }
         ]
@@ -541,6 +595,24 @@
             }
         ]
     },
+    "skill_vitality_iron_resolve": {
+        "title": "Iron Resolve",
+        "description": "Reduces incoming damage and grants bonus health regen while below 50% HP.",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "minecraft:totem_of_undying"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills_origins:power",
+                "data": {
+                    "power": "bugboys:skilltree/vitality_iron_resolve"
+                }
+            }
+        ]
+    },
     "skill_vitality_guardians_aura": {
         "title": "Guardian\u2019s Aura",
         "description": "Passively grants allies nearby a regeneration aura.",
@@ -648,7 +720,7 @@
         }
     },
     "end_archer": {
-        "title": "End Archer",
+        "title": "Archer",
         "rewards": [
             {
                 "type": "puffish_skills:command",
@@ -669,7 +741,7 @@
         }
     },
     "end_beserker": {
-        "title": "End Beserker",
+        "title": "Beserker",
         "rewards": [
             {
                 "type": "puffish_skills:command",
@@ -690,7 +762,7 @@
         }
     },
     "end_elementalist": {
-        "title": "End Elementalist",
+        "title": "Elementalist",
         "rewards": [
             {
                 "type": "puffish_skills:command",
@@ -711,7 +783,7 @@
         }
     },
     "end_knight": {
-        "title": "End Knight",
+        "title": "Knight",
         "rewards": [
             {
                 "type": "puffish_skills:command",
@@ -731,29 +803,8 @@
             "icon": "axncwmqcrwdx3vlg"
         }
     },
-    "end_necromancer": {
-        "title": "End Necromancer",
-        "rewards": [
-            {
-                "type": "puffish_skills:command",
-                "data": {
-                    "unlock_command": "advancement grant @s only bugboys:class_necromancer",
-                    "lock_command": "advancement revoke @s only bugboys:class_necromancer"
-                }
-            }
-        ],
-        "icon": {
-            "type": "item",
-            "data": {
-                "item": "minecraft:wither_skeleton_skull"
-            }
-        },
-        "metadata": {
-            "icon": "qbakxe5ynkin69fz"
-        }
-    },
     "end_paladin": {
-        "title": "End Paladin",
+        "title": "Paladin",
         "rewards": [
             {
                 "type": "puffish_skills:command",
@@ -774,7 +825,7 @@
         }
     },
     "end_rogue": {
-        "title": "End Rogue",
+        "title": "Rogue",
         "rewards": [
             {
                 "type": "puffish_skills:command",
@@ -795,7 +846,7 @@
         }
     },
     "end_spellblade": {
-        "title": "End Spellblade",
+        "title": "Spellblade",
         "rewards": [
             {
                 "type": "puffish_skills:command",
@@ -814,5 +865,45 @@
         "metadata": {
             "icon": "1ke048jpj5w0tpiv"
         }
+    },
+    "end_death_knight": {
+        "title": "Death Knight",
+        "rewards": [
+            {
+                "type": "puffish_skills:command",
+                "data": {
+                    "unlock_command": "advancement grant @s only bugboys:class_necromancer",
+                    "lock_command": "advancement revoke @s only bugboys:class_necromancer"
+                }
+            }
+        ],
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "minecraft:wither_skeleton_skull"
+            }
+        },
+        "metadata": {
+            "icon": "qbakxe5ynkin69fz"
+        }
+    },
+    "end_bruiser": {
+        "title": "Bruiser",
+        "description": "A resilient warrior that relies on raw strength and durability to dominate enemies.",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "minecraft:iron_chestplate"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:command",
+                "data": {
+                    "unlock_command": "advancement grant @s only bugboys:class_necromancer",
+                    "lock_command": "advancement revoke @s only bugboys:class_necromancer"
+                }
+            }
+        ]
     }
 }
