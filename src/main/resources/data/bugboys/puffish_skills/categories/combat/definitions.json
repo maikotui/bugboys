@@ -1,25 +1,49 @@
 {
     "root_dexterity": {
         "title": "Root Dexterity",
-        "rewards": [
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "minecraft:generic.movement_speed",
-                    "value": 0.05,
-                    "operation": "add"
-                }
-            }
-        ],
+        "description": "Master agility, precision, and stealth.",
         "icon": {
             "type": "item",
             "data": {
-                "item": "minecraft:feather"
+                "item": "minecraft:bow"
+            }
+        }
+    },
+    "skill_dexterity_deadeye_precision": {
+        "title": "Deadeye Precision",
+        "description": "Increase crit chance for a short time after landing a headshot or crit.",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "minecraft:bow"
             }
         },
-        "metadata": {
-            "icon": "f63w5sulu63ecyn8"
-        }
+        "rewards": [
+            {
+                "type": "puffish_skills_origins:power",
+                "data": {
+                    "power": "bugboys:skilltree/dexterity_deadeye_precision"
+                }
+            }
+        ]
+    },
+    "skill_dexterity_shadow_step": {
+        "title": "Shadow Step",
+        "description": "Briefly gain invincibility when dodging or evading.",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "minecraft:ender_pearl"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills_origins:power",
+                "data": {
+                    "power": "bugboys:skilltree/dexterity_shadow_step"
+                }
+            }
+        ]
     },
     "attribute_dexterity_arrow_damage": {
         "title": "Attribute Dexterity Arrow Damage",
@@ -153,69 +177,51 @@
             "icon": "kde2iyqpo1342g54"
         }
     },
-    "skill_dexterity_backstab": {
-        "title": "Skill Dexterity Backstab",
-        "rewards": [
-            {
-                "type": "puffish_skills:command",
-                "data": {
-                    "unlock_command": "advancement grant @s only bugboys:backstab",
-                    "lock_command": "advancement revoke @s only bugboys:backstab"
-                }
-            }
-        ],
-        "icon": {
-            "type": "item",
-            "data": {
-                "item": "minecraft:iron_sword"
-            }
-        },
-        "metadata": {
-            "icon": "mxvd1ktv9cn3ug3k"
-        }
-    },
-    "skill_dexterity_poison_blade": {
-        "title": "Skill Dexterity Poison Blade",
-        "rewards": [
-            {
-                "type": "puffish_skills:command",
-                "data": {
-                    "unlock_command": "advancement grant @s only bugboys:poison_blade",
-                    "lock_command": "advancement revoke @s only bugboys:poison_blade"
-                }
-            }
-        ],
-        "icon": {
-            "type": "item",
-            "data": {
-                "item": "minecraft:spider_eye"
-            }
-        },
-        "metadata": {
-            "icon": "7hd5z2w9p5d3wdfj"
-        }
-    },
     "root_intellect": {
         "title": "Root Intellect",
-        "rewards": [
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "spell_power:arcane",
-                    "value": 1,
-                    "operation": "add"
-                }
-            }
-        ],
+        "description": "Harness the power of magic and spellcraft.",
         "icon": {
             "type": "item",
             "data": {
-                "item": "minecraft:book"
+                "item": "minecraft:enchanted_book"
+            }
+        }
+    },
+    "skill_intellect_arcane_efficiency": {
+        "title": "Arcane Efficiency",
+        "description": "Reduced mana cost for spells after casting 3 spells consecutively.",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "minecraft:enchanted_book"
             }
         },
-        "metadata": {
-            "icon": "placeholder_icon_id_for_intellect"
-        }
+        "rewards": [
+            {
+                "type": "puffish_skills_origins:power",
+                "data": {
+                    "power": "bugboys:skilltree/intellect_arcane_efficiency"
+                }
+            }
+        ]
+    },
+    "skill_intellect_elemental_mastery": {
+        "title": "Elemental Mastery",
+        "description": "Gain bonus spell damage when swapping between spell types.",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "minecraft:blaze_powder"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills_origins:power",
+                "data": {
+                    "power": "bugboys:skilltree/intellect_elemental_mastery"
+                }
+            }
+        ]
     },
     "attribute_intellect_arcane": {
         "title": "Attribute Intellect Arcane",
@@ -305,69 +311,6 @@
             "icon": "w284wq9oc8y9xvz3"
         }
     },
-    "skill_intellect_arcane_shield": {
-        "title": "Skill Intellect Arcane Shield",
-        "rewards": [
-            {
-                "type": "puffish_skills:command",
-                "data": {
-                    "unlock_command": "advancement grant @s only bugboys:arcane_shield",
-                    "lock_command": "advancement revoke @s only bugboys:arcane_shield"
-                }
-            }
-        ],
-        "icon": {
-            "type": "item",
-            "data": {
-                "item": "minecraft:shulker_shell"
-            }
-        },
-        "metadata": {
-            "icon": "ep410gd2374q4vjr"
-        }
-    },
-    "skill_intellect_quick_cast": {
-        "title": "Skill Intellect Quick Cast",
-        "rewards": [
-            {
-                "type": "puffish_skills:command",
-                "data": {
-                    "unlock_command": "advancement grant @s only bugboys:quick_cast",
-                    "lock_command": "advancement revoke @s only bugboys:quick_cast"
-                }
-            }
-        ],
-        "icon": {
-            "type": "item",
-            "data": {
-                "item": "minecraft:clock"
-            }
-        },
-        "metadata": {
-            "icon": "l5npabsborghmxri"
-        }
-    },
-    "skill_intellect_summon_skeleton": {
-        "title": "Skill Intellect Summon Skeleton",
-        "rewards": [
-            {
-                "type": "puffish_skills:command",
-                "data": {
-                    "unlock_command": "advancement grant @s only bugboys:summon_skeleton",
-                    "lock_command": "advancement revoke @s only bugboys:summon_skeleton"
-                }
-            }
-        ],
-        "icon": {
-            "type": "item",
-            "data": {
-                "item": "minecraft:bone"
-            }
-        },
-        "metadata": {
-            "icon": "ycn9t414ifw7y31l"
-        }
-    },
     "root_strength": {
         "title": "Root Strength",
         "rewards": [
@@ -389,6 +332,42 @@
         "metadata": {
             "icon": "v5ppd0tq8s6rqbrv"
         }
+    },
+    "skill_strength_momentum_strike": {
+        "title": "Momentum Strike",
+        "description": "Gain a brief movement speed boost after a successful melee hit.",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "minecraft:iron_sword"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills_origins:power",
+                "data": {
+                    "power": "bugboys:skilltree/strength_momentum_strike"
+                }
+            }
+        ]
+    },
+    "skill_strength_armor_breaker": {
+        "title": "Armor Breaker",
+        "description": "Melee attacks reduce enemy armor temporarily.",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "minecraft:anvil"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills_origins:power",
+                "data": {
+                    "power": "bugboys:skilltree/strength_armor_breaker"
+                }
+            }
+        ]
     },
     "attribute_strength_armor_shred": {
         "title": "Attribute Strength Armor Shred",
@@ -522,90 +501,6 @@
             "icon": "5ank2o1ml3l8d9yv"
         }
     },
-    "skill_strength_berserker_rage": {
-        "title": "Skill Strength Berserker Rage",
-        "rewards": [
-            {
-                "type": "puffish_skills:command",
-                "data": {
-                    "unlock_command": "advancement grant @s only bugboys:berserker_rage",
-                    "lock_command": "advancement revoke @s only bugboys:berserker_rage"
-                }
-            }
-        ],
-        "icon": {
-            "type": "item",
-            "data": {
-                "item": "minecraft:blaze_powder"
-            }
-        },
-        "metadata": {
-            "icon": "2k46fkz9xp9gfic8"
-        }
-    },
-    "skill_strength_momentum": {
-        "title": "Skill Strength Momentum",
-        "rewards": [
-            {
-                "type": "puffish_skills:command",
-                "data": {
-                    "unlock_command": "advancement grant @s only bugboys:momentum",
-                    "lock_command": "advancement revoke @s only bugboys:momentum"
-                }
-            }
-        ],
-        "icon": {
-            "type": "item",
-            "data": {
-                "item": "minecraft:sugar"
-            }
-        },
-        "metadata": {
-            "icon": "cypxo2x0azt58nnm"
-        }
-    },
-    "skill_strength_power_attack": {
-        "title": "Skill Strength Power Attack",
-        "rewards": [
-            {
-                "type": "puffish_skills:command",
-                "data": {
-                    "unlock_command": "advancement grant @s only bugboys:power_attack",
-                    "lock_command": "advancement revoke @s only bugboys:power_attack"
-                }
-            }
-        ],
-        "icon": {
-            "type": "item",
-            "data": {
-                "item": "minecraft:netherite_sword"
-            }
-        },
-        "metadata": {
-            "icon": "guivvvr8uftti7fo"
-        }
-    },
-    "skill_strength_weapon_mastery": {
-        "title": "Skill Strength Weapon Mastery",
-        "rewards": [
-            {
-                "type": "puffish_skills:command",
-                "data": {
-                    "unlock_command": "advancement grant @s only bugboys:weapon_mastery",
-                    "lock_command": "advancement revoke @s only bugboys:weapon_mastery"
-                }
-            }
-        ],
-        "icon": {
-            "type": "item",
-            "data": {
-                "item": "minecraft:anvil"
-            }
-        },
-        "metadata": {
-            "icon": "euxxjuz7lyzpwr6q"
-        }
-    },
     "root_vitality": {
         "title": "Root Vitality",
         "rewards": [
@@ -627,6 +522,42 @@
         "metadata": {
             "icon": "erore3gnmwzkjncg"
         }
+    },
+    "skill_vitality_second_wind": {
+        "title": "Second Wind",
+        "description": "Heal a percentage of missing HP after dropping below a threshold.",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "minecraft:totem_of_undying"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills_origins:power",
+                "data": {
+                    "power": "bugboys:skilltree/vitality_second_wind"
+                }
+            }
+        ]
+    },
+    "skill_vitality_guardians_aura": {
+        "title": "Guardian\u2019s Aura",
+        "description": "Passively grants allies nearby a regeneration aura.",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "minecraft:beacon"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills_origins:power",
+                "data": {
+                    "power": "bugboys:skilltree/vitality_guardians_aura"
+                }
+            }
+        ]
     },
     "attribute_vitality_healing_received": {
         "title": "Attribute Vitality Healing Received",
@@ -714,69 +645,6 @@
         },
         "metadata": {
             "icon": "bq2b9seelz422b3s"
-        }
-    },
-    "skill_vitality_divine_barrier": {
-        "title": "Skill Vitality Divine Barrier",
-        "rewards": [
-            {
-                "type": "puffish_skills:command",
-                "data": {
-                    "unlock_command": "advancement grant @s only bugboys:divine_barrier",
-                    "lock_command": "advancement revoke @s only bugboys:divine_barrier"
-                }
-            }
-        ],
-        "icon": {
-            "type": "item",
-            "data": {
-                "item": "minecraft:totem_of_undying"
-            }
-        },
-        "metadata": {
-            "icon": "4evyyt7rbz8wji8x"
-        }
-    },
-    "skill_vitality_endurance": {
-        "title": "Skill Vitality Endurance",
-        "rewards": [
-            {
-                "type": "puffish_skills:command",
-                "data": {
-                    "unlock_command": "advancement grant @s only bugboys:endurance",
-                    "lock_command": "advancement revoke @s only bugboys:endurance"
-                }
-            }
-        ],
-        "icon": {
-            "type": "item",
-            "data": {
-                "item": "minecraft:turtle_helmet"
-            }
-        },
-        "metadata": {
-            "icon": "j6wyhk75370klbqi"
-        }
-    },
-    "skill_vitality_healing_pulse": {
-        "title": "Skill Vitality Healing Pulse",
-        "rewards": [
-            {
-                "type": "puffish_skills:command",
-                "data": {
-                    "unlock_command": "advancement grant @s only bugboys:healing_pulse",
-                    "lock_command": "advancement revoke @s only bugboys:healing_pulse"
-                }
-            }
-        ],
-        "icon": {
-            "type": "item",
-            "data": {
-                "item": "minecraft:splash_potion"
-            }
-        },
-        "metadata": {
-            "icon": "qa1zcs9dtb2p4syo"
         }
     },
     "end_archer": {
