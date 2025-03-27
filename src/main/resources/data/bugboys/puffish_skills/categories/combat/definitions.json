@@ -18,6 +18,12 @@
                 "item": "minecraft:bow"
             }
         },
+        "frame": {
+            "type": "advancement",
+            "data": {
+                "frame": "goal"
+            }
+        },
         "rewards": [
             {
                 "type": "puffish_skills_origins:power",
@@ -36,6 +42,12 @@
                 "item": "minecraft:ender_pearl"
             }
         },
+        "frame": {
+            "type": "advancement",
+            "data": {
+                "frame": "goal"
+            }
+        },
         "rewards": [
             {
                 "type": "puffish_skills_origins:power",
@@ -52,6 +64,12 @@
             "type": "item",
             "data": {
                 "item": "minecraft:ender_pearl"
+            }
+        },
+        "frame": {
+            "type": "advancement",
+            "data": {
+                "frame": "goal"
             }
         },
         "rewards": [
@@ -214,6 +232,12 @@
                 "item": "minecraft:enchanted_book"
             }
         },
+        "frame": {
+            "type": "advancement",
+            "data": {
+                "frame": "goal"
+            }
+        },
         "rewards": [
             {
                 "type": "puffish_skills_origins:power",
@@ -232,6 +256,12 @@
                 "item": "minecraft:enchanted_book"
             }
         },
+        "frame": {
+            "type": "advancement",
+            "data": {
+                "frame": "goal"
+            }
+        },
         "rewards": [
             {
                 "type": "puffish_skills_origins:power",
@@ -248,6 +278,12 @@
             "type": "item",
             "data": {
                 "item": "minecraft:blaze_powder"
+            }
+        },
+        "frame": {
+            "type": "advancement",
+            "data": {
+                "frame": "goal"
             }
         },
         "rewards": [
@@ -378,6 +414,12 @@
                 "item": "minecraft:iron_sword"
             }
         },
+        "frame": {
+            "type": "advancement",
+            "data": {
+                "frame": "goal"
+            }
+        },
         "rewards": [
             {
                 "type": "puffish_skills_origins:power",
@@ -396,6 +438,12 @@
                 "item": "minecraft:anvil"
             }
         },
+        "frame": {
+            "type": "advancement",
+            "data": {
+                "frame": "goal"
+            }
+        },
         "rewards": [
             {
                 "type": "puffish_skills_origins:power",
@@ -412,6 +460,12 @@
             "type": "item",
             "data": {
                 "item": "minecraft:anvil"
+            }
+        },
+        "frame": {
+            "type": "advancement",
+            "data": {
+                "frame": "goal"
             }
         },
         "rewards": [
@@ -586,6 +640,12 @@
                 "item": "minecraft:totem_of_undying"
             }
         },
+        "frame": {
+            "type": "advancement",
+            "data": {
+                "frame": "goal"
+            }
+        },
         "rewards": [
             {
                 "type": "puffish_skills_origins:power",
@@ -604,6 +664,12 @@
                 "item": "minecraft:totem_of_undying"
             }
         },
+        "frame": {
+            "type": "advancement",
+            "data": {
+                "frame": "goal"
+            }
+        },
         "rewards": [
             {
                 "type": "puffish_skills_origins:power",
@@ -620,6 +686,12 @@
             "type": "item",
             "data": {
                 "item": "minecraft:beacon"
+            }
+        },
+        "frame": {
+            "type": "advancement",
+            "data": {
+                "frame": "goal"
             }
         },
         "rewards": [
@@ -736,6 +808,12 @@
                 "item": "minecraft:target"
             }
         },
+        "frame": {
+            "type": "advancement",
+            "data": {
+                "frame": "challenge"
+            }
+        },
         "metadata": {
             "icon": "57pud115nhqlf7jf"
         }
@@ -755,6 +833,12 @@
             "type": "item",
             "data": {
                 "item": "minecraft:iron_sword"
+            }
+        },
+        "frame": {
+            "type": "advancement",
+            "data": {
+                "frame": "challenge"
             }
         },
         "metadata": {
@@ -778,6 +862,12 @@
                 "item": "minecraft:enchanted_book"
             }
         },
+        "frame": {
+            "type": "advancement",
+            "data": {
+                "frame": "challenge"
+            }
+        },
         "metadata": {
             "icon": "2pzqfoslaadn1vtm"
         }
@@ -797,6 +887,12 @@
             "type": "item",
             "data": {
                 "item": "minecraft:shield"
+            }
+        },
+        "frame": {
+            "type": "advancement",
+            "data": {
+                "frame": "challenge"
             }
         },
         "metadata": {
@@ -820,6 +916,12 @@
                 "item": "minecraft:golden_sword"
             }
         },
+        "frame": {
+            "type": "advancement",
+            "data": {
+                "frame": "challenge"
+            }
+        },
         "metadata": {
             "icon": "zb3kbypftnunld2t"
         }
@@ -839,6 +941,12 @@
             "type": "item",
             "data": {
                 "item": "minecraft:crossbow"
+            }
+        },
+        "frame": {
+            "type": "advancement",
+            "data": {
+                "frame": "challenge"
             }
         },
         "metadata": {
@@ -862,6 +970,12 @@
                 "item": "minecraft:diamond_sword"
             }
         },
+        "frame": {
+            "type": "advancement",
+            "data": {
+                "frame": "challenge"
+            }
+        },
         "metadata": {
             "icon": "1ke048jpj5w0tpiv"
         }
@@ -883,6 +997,12 @@
                 "item": "minecraft:wither_skeleton_skull"
             }
         },
+        "frame": {
+            "type": "advancement",
+            "data": {
+                "frame": "challenge"
+            }
+        },
         "metadata": {
             "icon": "qbakxe5ynkin69fz"
         }
@@ -894,6 +1014,12 @@
             "type": "item",
             "data": {
                 "item": "minecraft:iron_chestplate"
+            }
+        },
+        "frame": {
+            "type": "advancement",
+            "data": {
+                "frame": "challenge"
             }
         },
         "rewards": [

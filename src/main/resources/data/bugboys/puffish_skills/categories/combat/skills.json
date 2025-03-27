@@ -241,26 +241,26 @@
 	},
 	"nfx3qg5te4v4hze0": {
 		"definition": "attribute_dexterity_dodge_chance",
-		"x": -224,
+		"x": -192,
 		"y": -288,
 		"root": false
 	},
 	"ybgu3u6ayefh1hrm": {
 		"definition": "attribute_dexterity_dodge_chance",
 		"x": -288,
-		"y": -224,
+		"y": -192,
 		"root": false
 	},
 	"7jdwy8afhul3u2qd": {
 		"definition": "attribute_dexterity_dodge_chance",
-		"x": 224,
+		"x": 192,
 		"y": -288,
 		"root": false
 	},
 	"0cblnksryupc0ytn": {
 		"definition": "attribute_dexterity_dodge_chance",
 		"x": 288,
-		"y": -224,
+		"y": -192,
 		"root": false
 	},
 	"f057fsvn5do5ighe": {
@@ -686,25 +686,25 @@
 	"aaxnlkmnm5vxifed": {
 		"definition": "attribute_dexterity_dodge_chance",
 		"x": -288,
-		"y": 224,
+		"y": 192,
 		"root": false
 	},
 	"lakqta3lxrh6l92b": {
 		"definition": "attribute_dexterity_dodge_chance",
-		"x": -224,
+		"x": -192,
 		"y": 288,
 		"root": false
 	},
 	"zpj0jjxph4znrov1": {
 		"definition": "attribute_dexterity_dodge_chance",
-		"x": 224,
+		"x": 192,
 		"y": 288,
 		"root": false
 	},
 	"dctk7usg199vyo50": {
 		"definition": "attribute_dexterity_dodge_chance",
 		"x": 288,
-		"y": 224,
+		"y": 192,
 		"root": false
 	},
 	"s6o7kk8bbhm5a2uw": {
