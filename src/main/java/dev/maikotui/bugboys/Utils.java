@@ -13,7 +13,30 @@ import java.util.Objects;
 public class Utils {
     public static final List<String> SPELLBOOK_IDS = List.of(
             // Wizards
-            "arcane", "fire", "frost"
+            "arcane",
+            "fire",
+            "frost",
+            // Rogues and Warriors
+            "rogue",
+            "warrior",
+            // Archer
+            "archer",
+            // Spellblades
+            "frost_battlemage",
+            "fire_battlemage",
+            "arcane_battlemage",
+            "runic_echoes",
+            "phoenix",
+            "deathchill",
+            "vengeance",
+            "defiance",
+            // Paladins and Priests
+            "paladin",
+            "priest",
+            // Death Knights
+            "blood",
+            "unholy",
+            "frost"
     );
 
     public static String GenerateSpellbookAdvancementPath(String spellbookId) {
