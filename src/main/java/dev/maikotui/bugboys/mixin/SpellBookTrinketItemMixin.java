@@ -97,7 +97,10 @@ public abstract class SpellBookTrinketItemMixin implements RevelationAware, Trin
 		if (entity instanceof PlayerEntity player) {
 			boolean hasAccess = isVisibleTo(player);
 			if (!hasAccess) {
-				System.out.println("[Bugboys] Prevented cloaked SpellBook from being equipped.");
+				BugBoysMC.LOGGER.debug("Prevented cloaked SpellBook '{}' from being equipped by '{}'",
+						stack.getName(),
+						player.getName()
+				);
 			}
 			return hasAccess;
 		}
