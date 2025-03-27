@@ -3,14 +3,15 @@ package dev.maikotui.bugboys.mixin;
 import de.dafuqs.revelationary.api.revelations.RevelationAware;
 import dev.emi.trinkets.api.TrinketsApi;
 import dev.maikotui.bugboys.BugBoysMC;
-import dev.maikotui.bugboys.Utils;
 import io.github.apace100.origins.content.OrbOfOriginItem;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.util.Hand;
+import net.minecraft.util.Identifier;
 import net.minecraft.util.TypedActionResult;
 import net.minecraft.world.World;
+import net.puffish.skillsmod.SkillsMod;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
@@ -28,16 +29,26 @@ public abstract class OrbOfOriginItemMixin {
                 component.getAllEquipped().forEach((pair) -> {
                     ItemStack stack = pair.getRight();
                     if (stack.getItem() instanceof RevelationAware aware && aware.isVisibleTo(user)) {
-                        BugBoysMC.LOGGER.info("Unequipping cloaked item: {}", stack.getName().getString());
+                        BugBoysMC.LOGGER.info("Unequipping cloaked item '{}' from player '{}'",
+                                stack.getName().getString(),
+                                user.getName()
+                        );
                         user.giveItemStack(stack.copy());
                         pair.getLeft().inventory().setStack(pair.getLeft().index(), ItemStack.EMPTY);
                     }
                 });
             });
 
-            // Revoke all spellbook achievements
             if (user instanceof ServerPlayerEntity serverPlayer) {
-                Utils.RevokeAllSpellbookAdvancements(serverPlayer);
+                // Utils.RevokeAllSpellbookAdvancements(serverPlayer); No longer needed
+                SkillsMod skillsMod = SkillsMod.getInstance();
+                Identifier skillCategoryId = new Identifier("bugboys", "combat");
+                int experienceAmount = skillsMod.getExperience(serverPlayer, skillCategoryId).orElse(0);
+                BugBoysMC.LOGGER.debug("User {} had {} experience points in the bugboys:combat category",
+                        serverPlayer.getName().toString(),
+                        experienceAmount
+                );
+                skillsMod.resetSkills(serverPlayer, skillCategoryId);
             }
         }
     }
