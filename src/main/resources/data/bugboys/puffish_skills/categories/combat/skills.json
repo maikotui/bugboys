@@ -66,7 +66,7 @@
 		"root": false
 	},
 	"qh43smmadipc7p9b": {
-		"definition": "end_bruiser",
+		"definition": "end_priest",
 		"x": -352,
 		"y": 352,
 		"root": false
@@ -120,223 +120,223 @@
 		"root": false
 	},
 	"lbnjsyswehe8vsnc": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": 32,
 		"y": -96,
 		"root": false
 	},
 	"fsqk608bm3dnugaz": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": -32,
 		"y": -96,
 		"root": false
 	},
 	"a42dnoa5e16iyojq": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": -96,
 		"y": -32,
 		"root": false
 	},
 	"ije7avp56ls5s5nu": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": -96,
 		"y": 32,
 		"root": false
 	},
 	"4029l9f9em4ebq7f": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": -32,
 		"y": 96,
 		"root": false
 	},
 	"za7t594tn2gohkkn": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": 32,
 		"y": 96,
 		"root": false
 	},
 	"c00evp5y9q1jby6j": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": 96,
 		"y": 32,
 		"root": false
 	},
 	"u22fucozosnngttj": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": 96,
 		"y": -32,
 		"root": false
 	},
 	"v3nqfkktskusp5gn": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": 0,
 		"y": 160,
 		"root": false
 	},
 	"w4ao79b85eqrl9wv": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": -160,
 		"y": 0,
 		"root": false
 	},
 	"pcj2d1v9z2qxkbj0": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": 160,
 		"y": 0,
 		"root": false
 	},
 	"1mnqxm38qrd86wef": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": -128,
 		"y": -256,
 		"root": false
 	},
 	"ofiuiv91tquka8ww": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": -96,
 		"y": -224,
 		"root": false
 	},
 	"z96dvj2g3neyvdux": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": -128,
 		"y": -192,
 		"root": false
 	},
 	"o0xc7fb0c078qwe7": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": -160,
 		"y": -224,
 		"root": false
 	},
 	"d6n0gost1vbi1xqt": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": -192,
 		"y": -128,
 		"root": false
 	},
 	"q5l2u1yvezmpk5rp": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": -96,
 		"y": -128,
 		"root": false
 	},
 	"mh6a0wtctp26eecd": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": -128,
 		"y": -96,
 		"root": false
 	},
 	"mgtx1d18n5zb07tf": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": 96,
 		"y": -128,
 		"root": false
 	},
 	"z4xa7pnjvd12ioae": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": 128,
 		"y": -96,
 		"root": false
 	},
 	"nfx3qg5te4v4hze0": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": -192,
 		"y": -288,
 		"root": false
 	},
 	"ybgu3u6ayefh1hrm": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": -288,
 		"y": -192,
 		"root": false
 	},
 	"7jdwy8afhul3u2qd": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": 192,
 		"y": -288,
 		"root": false
 	},
 	"0cblnksryupc0ytn": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": 288,
 		"y": -192,
 		"root": false
 	},
 	"f057fsvn5do5ighe": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": 96,
 		"y": -320,
 		"root": false
 	},
 	"imyhy0yhp8t06x22": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": -96,
 		"y": -320,
 		"root": false
 	},
 	"jbkxiu4scgx304o6": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": -320,
 		"y": -96,
 		"root": false
 	},
 	"duwnx1te3g5a8oho": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": 320,
 		"y": -96,
 		"root": false
 	},
 	"w8hm450c49wiaeaa": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": -288,
 		"y": -288,
 		"root": false
 	},
 	"af9idhpsmubeptrn": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": 288,
 		"y": -288,
 		"root": false
 	},
 	"dz1lze4em5w5yhra": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": -224,
 		"y": -224,
 		"root": false
 	},
 	"m2wmdqqcaf6jz6z4": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": 224,
 		"y": -224,
 		"root": false
 	},
 	"30bosho6506ioimj": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": 0,
 		"y": -160,
 		"root": false
 	},
 	"67ick9xli3hbz7q6": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": -32,
 		"y": -288,
 		"root": false
 	},
 	"9wlsn253juzzjly1": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": -32,
 		"y": -224,
 		"root": false
 	},
 	"fj235cbxktbv4yua": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": 32,
 		"y": -224,
 		"root": false
 	},
 	"ibi95qne59wjlph8": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": 32,
 		"y": -288,
 		"root": false
@@ -354,37 +354,37 @@
 		"root": false
 	},
 	"qiyk2ha2xwznm0x4": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": -224,
 		"y": -32,
 		"root": false
 	},
 	"cvopraok5in4kb02": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": -288,
 		"y": -32,
 		"root": false
 	},
 	"nnd7ox1yi1ra48z7": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": -288,
 		"y": 32,
 		"root": false
 	},
 	"d2mzm5tnsmrx8v5b": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": -224,
 		"y": 32,
 		"root": false
 	},
 	"dk8lls7dj4uspcmi": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": -352,
 		"y": 0,
 		"root": false
 	},
 	"gvbf09mafe4669qb": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": 0,
 		"y": -352,
 		"root": false
@@ -396,31 +396,31 @@
 		"root": false
 	},
 	"9hg43f1yewlctlm2": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": 224,
 		"y": -32,
 		"root": false
 	},
 	"4zekylg3e3aql530": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": 288,
 		"y": -32,
 		"root": false
 	},
 	"rc0mx3hcek7de0bs": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": 288,
 		"y": 32,
 		"root": false
 	},
 	"a1e5lx7a8nb7shcb": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": 224,
 		"y": 32,
 		"root": false
 	},
 	"5f2hy5c3cujptc41": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": 352,
 		"y": 0,
 		"root": false
@@ -432,313 +432,313 @@
 		"root": false
 	},
 	"yin1vxvtwifh615z": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": -32,
 		"y": 224,
 		"root": false
 	},
 	"ar664atc9x3lsiwe": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": 32,
 		"y": 224,
 		"root": false
 	},
 	"yocb64ogaxkajdd6": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": 32,
 		"y": 288,
 		"root": false
 	},
 	"9g5r7o8wuj0vid7a": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": -32,
 		"y": 288,
 		"root": false
 	},
 	"o6kj43f2ryojr2z5": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": 0,
 		"y": 352,
 		"root": false
 	},
 	"kilmt34bu8mwbn86": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": 128,
 		"y": 96,
 		"root": false
 	},
 	"d3qqk0m7kh1yaxj4": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": 96,
 		"y": 128,
 		"root": false
 	},
 	"te1x8p1j1a4no0i0": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": -96,
 		"y": 128,
 		"root": false
 	},
 	"nr050891yrakotmo": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": -128,
 		"y": 96,
 		"root": false
 	},
 	"245xosjzluttbaug": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": 160,
 		"y": -224,
 		"root": false
 	},
 	"1ku1haw77c1j5ci6": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": 128,
 		"y": -256,
 		"root": false
 	},
 	"ot5slek5wu2xnp8a": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": 96,
 		"y": -224,
 		"root": false
 	},
 	"c5dp0u0oymw4rs0l": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": 128,
 		"y": -192,
 		"root": false
 	},
 	"hxpq3rzh2a7u4qjb": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": 224,
 		"y": -96,
 		"root": false
 	},
 	"ewvmc5zf40yampfz": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": 192,
 		"y": -128,
 		"root": false
 	},
 	"8h588ynjgb1bp5yj": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": 224,
 		"y": -160,
 		"root": false
 	},
 	"enyezpo9tpt2msjj": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": 256,
 		"y": -128,
 		"root": false
 	},
 	"f3896lh971x1y7v4": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": 192,
 		"y": 128,
 		"root": false
 	},
 	"g263l84a4w550nk9": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": 224,
 		"y": 160,
 		"root": false
 	},
 	"o239yg6wgnkyvdz0": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": 256,
 		"y": 128,
 		"root": false
 	},
 	"m3mn6cdycg4bnq57": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": 224,
 		"y": 96,
 		"root": false
 	},
 	"yyv9k261kewhzgsm": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": 128,
 		"y": 256,
 		"root": false
 	},
 	"tp3xwgx1uaw3r5dh": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": 160,
 		"y": 224,
 		"root": false
 	},
 	"u7fda6sj22rrcp4h": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": 128,
 		"y": 192,
 		"root": false
 	},
 	"8wvu58uotl779zep": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": 96,
 		"y": 224,
 		"root": false
 	},
 	"jr91za5rpo3ikk6h": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": -96,
 		"y": 224,
 		"root": false
 	},
 	"1rfskmcepen1ponq": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": -128,
 		"y": 256,
 		"root": false
 	},
 	"qepkpowigc7zopho": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": -160,
 		"y": 224,
 		"root": false
 	},
 	"x2rzht3rkneu686z": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": -128,
 		"y": 192,
 		"root": false
 	},
 	"bos51jpydkjze32w": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": -256,
 		"y": 128,
 		"root": false
 	},
 	"8n6x3vrbqdsz8yfg": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": -224,
 		"y": 160,
 		"root": false
 	},
 	"o0u41yio8e9h3hft": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": -192,
 		"y": 128,
 		"root": false
 	},
 	"xk57vfivjmuv83i7": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": -224,
 		"y": 96,
 		"root": false
 	},
 	"4xu0bx442kn0n5gy": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": -224,
 		"y": -160,
 		"root": false
 	},
 	"9t3abkkmmh2rewbo": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": -256,
 		"y": -128,
 		"root": false
 	},
 	"uesg9l0texqkmev6": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": -224,
 		"y": -96,
 		"root": false
 	},
 	"v42mjy1zwzldw82e": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": -320,
 		"y": 96,
 		"root": false
 	},
 	"1fciv3vnr756ptv7": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": -96,
 		"y": 320,
 		"root": false
 	},
 	"z7xnjuou0unovva0": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": 96,
 		"y": 320,
 		"root": false
 	},
 	"1wm6ffikt50tyfn8": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": 320,
 		"y": 96,
 		"root": false
 	},
 	"12nos5yxa6e286ha": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": 288,
 		"y": 288,
 		"root": false
 	},
 	"hliwe7i7pdgucsfh": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": -288,
 		"y": 288,
 		"root": false
 	},
 	"aaxnlkmnm5vxifed": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": -288,
 		"y": 192,
 		"root": false
 	},
 	"lakqta3lxrh6l92b": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": -192,
 		"y": 288,
 		"root": false
 	},
 	"zpj0jjxph4znrov1": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": 192,
 		"y": 288,
 		"root": false
 	},
 	"dctk7usg199vyo50": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": 288,
 		"y": 192,
 		"root": false
 	},
 	"s6o7kk8bbhm5a2uw": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": -224,
 		"y": 224,
 		"root": false
 	},
 	"nwpl31bq1vp4t4b5": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": 224,
 		"y": 224,
 		"root": false
 	},
 	"uz5k0ipr8anju8y1": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": -416,
 		"y": 0,
 		"root": false
 	},
 	"bzmiri1sqrqzbb50": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": 0,
 		"y": -416,
 		"root": false
 	},
 	"1i5nnz9s4vxjjevm": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": 416,
 		"y": 0,
 		"root": false
 	},
 	"uvex1a23u52jj4vl": {
-		"definition": "attribute_dexterity_dodge_chance",
+		"definition": "attribute_placeholder",
 		"x": 0,
 		"y": 416,
 		"root": false

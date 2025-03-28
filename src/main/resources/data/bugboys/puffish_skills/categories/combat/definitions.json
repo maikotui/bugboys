@@ -26,7 +26,10 @@
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "mq73zy7wzl5x6cs3"
+        }
     },
     "skill_dexterity_deadeye_precision": {
         "title": "Deadeye Precision",
@@ -51,7 +54,10 @@
                 }
             }
         ],
-        "extra_description": "Gain unique powers and attributes tied to the path of dexterity deadeye precision."
+        "extra_description": "Gain unique powers and attributes tied to the path of dexterity deadeye precision.",
+        "metadata": {
+            "icon": "my6mzr7y2xbt43gn"
+        }
     },
     "skill_dexterity_phantom_reflexes": {
         "title": "Phantom Reflexes",
@@ -76,7 +82,10 @@
                 }
             }
         ],
-        "extra_description": "Gain unique powers and attributes tied to the path of dexterity phantom reflexes."
+        "extra_description": "Gain unique powers and attributes tied to the path of dexterity phantom reflexes.",
+        "metadata": {
+            "icon": "s4k5g2x1f2y5by49"
+        }
     },
     "skill_dexterity_shadow_step": {
         "title": "Shadow Step",
@@ -101,7 +110,10 @@
                 }
             }
         ],
-        "extra_description": "Gain unique powers and attributes tied to the path of dexterity shadow step."
+        "extra_description": "Gain unique powers and attributes tied to the path of dexterity shadow step.",
+        "metadata": {
+            "icon": "3jxwxffe4ptxo023"
+        }
     },
     "attribute_dexterity_arrow_damage": {
         "title": "Arrow Damage",
@@ -256,7 +268,7 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "spell_power:haste",
-                    "value": 5.0,
+                    "value": 5,
                     "operation": "addition"
                 }
             },
@@ -264,11 +276,14 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "spell_power:arcane",
-                    "value": 2.0,
+                    "value": 2,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "aw7ikeso3wcihgcq"
+        }
     },
     "skill_intellect_arcane_efficiency": {
         "title": "Arcane Efficiency",
@@ -293,7 +308,10 @@
                 }
             }
         ],
-        "extra_description": "Gain unique powers and attributes tied to the path of intellect arcane efficiency."
+        "extra_description": "Gain unique powers and attributes tied to the path of intellect arcane efficiency.",
+        "metadata": {
+            "icon": "sykbgolet0awh3cs"
+        }
     },
     "skill_intellect_arcane_surge": {
         "title": "Arcane Surge",
@@ -318,7 +336,10 @@
                 }
             }
         ],
-        "extra_description": "Gain unique powers and attributes tied to the path of intellect arcane surge."
+        "extra_description": "Gain unique powers and attributes tied to the path of intellect arcane surge.",
+        "metadata": {
+            "icon": "7zcwvzo5rao7nwlc"
+        }
     },
     "skill_intellect_elemental_mastery": {
         "title": "Elemental Mastery",
@@ -343,7 +364,10 @@
                 }
             }
         ],
-        "extra_description": "Gain unique powers and attributes tied to the path of intellect elemental mastery."
+        "extra_description": "Gain unique powers and attributes tied to the path of intellect elemental mastery.",
+        "metadata": {
+            "icon": "dakp5uk8m4dzeikd"
+        }
     },
     "attribute_intellect_arcane": {
         "title": "Arcane",
@@ -444,7 +468,7 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "minecraft:generic.attack_damage",
-                    "value": 1.0,
+                    "value": 1,
                     "operation": "addition"
                 }
             },
@@ -452,7 +476,7 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "minecraft:generic.armor",
-                    "value": 2.0,
+                    "value": 2,
                     "operation": "addition"
                 }
             }
@@ -492,7 +516,10 @@
                 }
             }
         ],
-        "extra_description": "Gain unique powers and attributes tied to the path of strength momentum strike."
+        "extra_description": "Gain unique powers and attributes tied to the path of strength momentum strike.",
+        "metadata": {
+            "icon": "c2vm3ouikid7nfx1"
+        }
     },
     "skill_strength_armor_breaker": {
         "title": "Armor Breaker",
@@ -517,7 +544,10 @@
                 }
             }
         ],
-        "extra_description": "Gain unique powers and attributes tied to the path of strength armor breaker."
+        "extra_description": "Gain unique powers and attributes tied to the path of strength armor breaker.",
+        "metadata": {
+            "icon": "5gug3r8gpfkdaeo4"
+        }
     },
     "skill_strength_unyielding_might": {
         "title": "Unyielding Might",
@@ -542,7 +572,10 @@
                 }
             }
         ],
-        "extra_description": "Gain unique powers and attributes tied to the path of strength unyielding might."
+        "extra_description": "Gain unique powers and attributes tied to the path of strength unyielding might.",
+        "metadata": {
+            "icon": "uza74teqw1gqlmuu"
+        }
     },
     "attribute_strength_armor_shred": {
         "title": "Armor Shred",
@@ -689,7 +722,7 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "minecraft:generic.max_health",
-                    "value": 4.0,
+                    "value": 4,
                     "operation": "addition"
                 }
             },
@@ -737,7 +770,10 @@
                 }
             }
         ],
-        "extra_description": "Gain unique powers and attributes tied to the path of vitality second wind."
+        "extra_description": "Gain unique powers and attributes tied to the path of vitality second wind.",
+        "metadata": {
+            "icon": "58fe24mbuibtwlb9"
+        }
     },
     "skill_vitality_iron_resolve": {
         "title": "Iron Resolve",
@@ -762,7 +798,10 @@
                 }
             }
         ],
-        "extra_description": "Gain unique powers and attributes tied to the path of vitality iron resolve."
+        "extra_description": "Gain unique powers and attributes tied to the path of vitality iron resolve.",
+        "metadata": {
+            "icon": "t4ywtl58kgkccq3k"
+        }
     },
     "skill_vitality_guardians_aura": {
         "title": "Guardians Aura",
@@ -787,7 +826,10 @@
                 }
             }
         ],
-        "extra_description": "Gain unique powers and attributes tied to the path of vitality guardians aura."
+        "extra_description": "Gain unique powers and attributes tied to the path of vitality guardians aura.",
+        "metadata": {
+            "icon": "4kze7z5hfl2t64h5"
+        }
     },
     "attribute_vitality_healing_received": {
         "title": "Healing Received",
@@ -1064,6 +1106,12 @@
                 "item": "spellbladenext:arcane_blade"
             }
         },
+        "frame": {
+            "type": "advancement",
+            "data": {
+                "frame": "challenge"
+            }
+        },
         "rewards": [
             {
                 "type": "puffish_skills:command",
@@ -1073,15 +1121,18 @@
                 }
             }
         ],
-        "extra_description": "Gain unique powers and attributes tied to the path of spellblade."
+        "extra_description": "Gain unique powers and attributes tied to the path of spellblade.",
+        "metadata": {
+            "icon": "1z0ngknvxj72fhvm"
+        }
     },
-    "end_bruiser": {
-        "title": "Bruiser",
-        "description": "Unlock the pinnacle of bruiser and become a legend.",
+    "end_priest": {
+        "title": "Priest",
+        "description": "Master of divine healing and protection, capable of keeping allies alive during the fiercest battles.",
         "icon": {
             "type": "item",
             "data": {
-                "item": "simplyswords:iron_greathammer"
+                "item": "paladins:paladin_spell_book"
             }
         },
         "frame": {
@@ -1094,11 +1145,27 @@
             {
                 "type": "puffish_skills:command",
                 "data": {
-                    "unlock_command": "advancement grant @s only bugboys:class_necromancer",
-                    "lock_command": "advancement revoke @s only bugboys:class_necromancer"
+                    "unlock_command": "advancement grant @s only bugboys:unlock_spellbook_priest",
+                    "lock_command": "advancement revoke @s only bugboys:unlock_spellbook_priest"
                 }
             }
         ],
-        "extra_description": "Gain unique powers and attributes tied to the path of bruiser."
+        "metadata": {
+            "icon": "wi4dokrs5evxm630"
+        }
+    },
+    "attribute_placeholder": {
+        "title": "Placeholder Node",
+        "description": "A placeholder node used for layout and testing purposes. Does not provide any bonuses.",
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "minecraft:barrier"
+            }
+        },
+        "rewards": [],
+        "metadata": {
+            "icon": "ld0esqhd815zb4oz"
+        }
     }
 }
