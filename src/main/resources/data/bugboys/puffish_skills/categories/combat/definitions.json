@@ -1,21 +1,40 @@
 {
     "root_dexterity": {
-        "title": "Root Dexterity",
-        "description": "Master agility, precision, and stealth.",
+        "title": "Path of Dexterity",
+        "description": "Embark on the path of dexterity and shape your destiny. (For more details, hold Shift)",
         "icon": {
             "type": "item",
             "data": {
-                "item": "minecraft:bow"
+                "item": "rogues:diamond_dagger"
             }
-        }
+        },
+        "extra_description": "Grants the following bonuses:\n+5% Crit Chance\n+0.0 Generic.Movement Speed",
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "zenith_attributes:crit_chance",
+                    "value": 0.05,
+                    "operation": "addition"
+                }
+            },
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "value": 0.02,
+                    "operation": "addition"
+                }
+            }
+        ]
     },
     "skill_dexterity_deadeye_precision": {
         "title": "Deadeye Precision",
-        "description": "Increase crit chance for a short time after landing a headshot or crit.",
+        "description": "Master the art of dexterity deadeye precision to gain an advantage in combat.",
         "icon": {
             "type": "item",
             "data": {
-                "item": "minecraft:bow"
+                "item": "archers:royal_longbow"
             }
         },
         "frame": {
@@ -31,11 +50,12 @@
                     "power": "bugboys:skilltree/dexterity_deadeye_precision"
                 }
             }
-        ]
+        ],
+        "extra_description": "Gain unique powers and attributes tied to the path of dexterity deadeye precision."
     },
     "skill_dexterity_phantom_reflexes": {
         "title": "Phantom Reflexes",
-        "description": "Temporarily gain increased dodge chance after landing a critical hit.",
+        "description": "Master the art of dexterity phantom reflexes to gain an advantage in combat.",
         "icon": {
             "type": "item",
             "data": {
@@ -55,15 +75,16 @@
                     "power": "bugboys:skilltree/dexterity_phantom_reflexes"
                 }
             }
-        ]
+        ],
+        "extra_description": "Gain unique powers and attributes tied to the path of dexterity phantom reflexes."
     },
     "skill_dexterity_shadow_step": {
         "title": "Shadow Step",
-        "description": "Briefly gain invincibility when dodging or evading.",
+        "description": "Master the art of dexterity shadow step to gain an advantage in combat.",
         "icon": {
             "type": "item",
             "data": {
-                "item": "minecraft:ender_pearl"
+                "item": "simplyswords:shadowsting"
             }
         },
         "frame": {
@@ -79,10 +100,11 @@
                     "power": "bugboys:skilltree/dexterity_shadow_step"
                 }
             }
-        ]
+        ],
+        "extra_description": "Gain unique powers and attributes tied to the path of dexterity shadow step."
     },
     "attribute_dexterity_arrow_damage": {
-        "title": "Attribute Dexterity Arrow Damage",
+        "title": "Arrow Damage",
         "rewards": [
             {
                 "type": "puffish_skills:attribute",
@@ -96,15 +118,16 @@
         "icon": {
             "type": "item",
             "data": {
-                "item": "minecraft:arrow"
+                "item": "archers:royal_longbow"
             }
         },
         "metadata": {
             "icon": "vd51eobwe5bx90at"
-        }
+        },
+        "description": "+10% Arrow Damage"
     },
     "attribute_dexterity_crit_chance": {
-        "title": "Attribute Dexterity Crit Chance",
+        "title": "Crit Chance",
         "rewards": [
             {
                 "type": "puffish_skills:attribute",
@@ -118,15 +141,16 @@
         "icon": {
             "type": "item",
             "data": {
-                "item": "minecraft:diamond"
+                "item": "rogues:diamond_dagger"
             }
         },
         "metadata": {
             "icon": "0u7w4b7fbtehleqk"
-        }
+        },
+        "description": "+5% Crit Chance"
     },
     "attribute_dexterity_dodge_chance": {
-        "title": "Attribute Dexterity Dodge Chance",
+        "title": "Dodge Chance",
         "rewards": [
             {
                 "type": "puffish_skills:attribute",
@@ -140,15 +164,16 @@
         "icon": {
             "type": "item",
             "data": {
-                "item": "minecraft:phantom_membrane"
+                "item": "minecraft:elytra"
             }
         },
         "metadata": {
             "icon": "wk94wohr80r9ga4v"
-        }
+        },
+        "description": "+5% Dodge Chance"
     },
     "attribute_dexterity_draw_speed": {
-        "title": "Attribute Dexterity Draw Speed",
+        "title": "Draw Speed",
         "rewards": [
             {
                 "type": "puffish_skills:attribute",
@@ -162,15 +187,16 @@
         "icon": {
             "type": "item",
             "data": {
-                "item": "minecraft:bow"
+                "item": "archers:mechanic_shortbow"
             }
         },
         "metadata": {
             "icon": "d6z3zee14riu3ytr"
-        }
+        },
+        "description": "+10% Draw Speed"
     },
     "attribute_dexterity_move_speed": {
-        "title": "Attribute Dexterity Move Speed",
+        "title": "Move Speed",
         "rewards": [
             {
                 "type": "puffish_skills:attribute",
@@ -189,10 +215,11 @@
         },
         "metadata": {
             "icon": "vltk86nmatrmbxwa"
-        }
+        },
+        "description": "+5% Move Speed"
     },
     "attribute_dexterity_zenith_crit_chance": {
-        "title": "Attribute Dexterity Zenith Crit Chance",
+        "title": "Crit Chance",
         "rewards": [
             {
                 "type": "puffish_skills:attribute",
@@ -211,25 +238,45 @@
         },
         "metadata": {
             "icon": "kde2iyqpo1342g54"
-        }
+        },
+        "description": "+5% Zenith Crit Chance"
     },
     "root_intellect": {
-        "title": "Root Intellect",
-        "description": "Harness the power of magic and spellcraft.",
+        "title": "Path of Intellect",
+        "description": "Embark on the path of intellect and shape your destiny. (For more details, hold Shift)",
         "icon": {
             "type": "item",
             "data": {
-                "item": "minecraft:enchanted_book"
+                "item": "wizards:wand_arcane"
             }
-        }
+        },
+        "extra_description": "Grants the following bonuses:\n+5.0 Haste\n+2.0 Arcane",
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "spell_power:haste",
+                    "value": 5.0,
+                    "operation": "addition"
+                }
+            },
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "spell_power:arcane",
+                    "value": 2.0,
+                    "operation": "addition"
+                }
+            }
+        ]
     },
     "skill_intellect_arcane_efficiency": {
         "title": "Arcane Efficiency",
-        "description": "Reduced mana cost for spells after casting 3 spells consecutively.",
+        "description": "Master the art of intellect arcane efficiency to gain an advantage in combat.",
         "icon": {
             "type": "item",
             "data": {
-                "item": "minecraft:enchanted_book"
+                "item": "wizards:arcane_spell_book"
             }
         },
         "frame": {
@@ -245,15 +292,16 @@
                     "power": "bugboys:skilltree/intellect_arcane_efficiency"
                 }
             }
-        ]
+        ],
+        "extra_description": "Gain unique powers and attributes tied to the path of intellect arcane efficiency."
     },
     "skill_intellect_arcane_surge": {
         "title": "Arcane Surge",
-        "description": "Gain a burst of spell haste and mana regen when casting consecutive spells.",
+        "description": "Master the art of intellect arcane surge to gain an advantage in combat.",
         "icon": {
             "type": "item",
             "data": {
-                "item": "minecraft:enchanted_book"
+                "item": "wizards:arcane_spell_book"
             }
         },
         "frame": {
@@ -269,15 +317,16 @@
                     "power": "bugboys:skilltree/intellect_arcane_surge"
                 }
             }
-        ]
+        ],
+        "extra_description": "Gain unique powers and attributes tied to the path of intellect arcane surge."
     },
     "skill_intellect_elemental_mastery": {
         "title": "Elemental Mastery",
-        "description": "Gain bonus spell damage when swapping between spell types.",
+        "description": "Master the art of intellect elemental mastery to gain an advantage in combat.",
         "icon": {
             "type": "item",
             "data": {
-                "item": "minecraft:blaze_powder"
+                "item": "spellbladenext:fire_blade"
             }
         },
         "frame": {
@@ -293,10 +342,11 @@
                     "power": "bugboys:skilltree/intellect_elemental_mastery"
                 }
             }
-        ]
+        ],
+        "extra_description": "Gain unique powers and attributes tied to the path of intellect elemental mastery."
     },
     "attribute_intellect_arcane": {
-        "title": "Attribute Intellect Arcane",
+        "title": "Arcane",
         "rewards": [
             {
                 "type": "puffish_skills:attribute",
@@ -310,15 +360,16 @@
         "icon": {
             "type": "item",
             "data": {
-                "item": "minecraft:amethyst_block"
+                "item": "spellbladenext:arcane_orb"
             }
         },
         "metadata": {
             "icon": "ndq0d98rcu2dckc8"
-        }
+        },
+        "description": "+100% Arcane"
     },
     "attribute_intellect_fire": {
-        "title": "Attribute Intellect Fire",
+        "title": "Fire",
         "rewards": [
             {
                 "type": "puffish_skills:attribute",
@@ -332,15 +383,16 @@
         "icon": {
             "type": "item",
             "data": {
-                "item": "minecraft:blaze_rod"
+                "item": "spellbladenext:fire_orb"
             }
         },
         "metadata": {
             "icon": "jbuhggj8odvqwen6"
-        }
+        },
+        "description": "+100% Fire"
     },
     "attribute_intellect_frost": {
-        "title": "Attribute Intellect Frost",
+        "title": "Frost",
         "rewards": [
             {
                 "type": "puffish_skills:attribute",
@@ -354,15 +406,16 @@
         "icon": {
             "type": "item",
             "data": {
-                "item": "minecraft:snowball"
+                "item": "spellbladenext:frost_orb"
             }
         },
         "metadata": {
             "icon": "mtymtmlh5ysvikab"
-        }
+        },
+        "description": "+100% Frost"
     },
     "attribute_intellect_mana_regen": {
-        "title": "Attribute Intellect Mana Regen",
+        "title": "Mana Regen",
         "rewards": [
             {
                 "type": "puffish_skills:attribute",
@@ -376,42 +429,53 @@
         "icon": {
             "type": "item",
             "data": {
-                "item": "minecraft:experience_bottle"
+                "item": "paladins:holy_staff"
             }
         },
         "metadata": {
             "icon": "w284wq9oc8y9xvz3"
-        }
+        },
+        "description": "+5% Mana Regen"
     },
     "root_strength": {
-        "title": "Root Strength",
+        "title": "Path of Strength",
         "rewards": [
             {
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "minecraft:generic.attack_damage",
-                    "value": 1,
-                    "operation": "add"
+                    "value": 1.0,
+                    "operation": "addition"
+                }
+            },
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "minecraft:generic.armor",
+                    "value": 2.0,
+                    "operation": "addition"
                 }
             }
         ],
         "icon": {
             "type": "item",
             "data": {
-                "item": "minecraft:iron_sword"
+                "item": "minecraft:netherite_sword"
             }
         },
         "metadata": {
             "icon": "v5ppd0tq8s6rqbrv"
-        }
+        },
+        "description": "Embark on the path of strength and shape your destiny. (For more details, hold Shift)",
+        "extra_description": "Grants the following bonuses:\n+1.0 Generic.Attack Damage\n+2.0 Generic.Armor"
     },
     "skill_strength_momentum_strike": {
         "title": "Momentum Strike",
-        "description": "Gain a brief movement speed boost after a successful melee hit.",
+        "description": "Master the art of strength momentum strike to gain an advantage in combat.",
         "icon": {
             "type": "item",
             "data": {
-                "item": "minecraft:iron_sword"
+                "item": "simplyswords:brimstone_claymore"
             }
         },
         "frame": {
@@ -427,15 +491,16 @@
                     "power": "bugboys:skilltree/strength_momentum_strike"
                 }
             }
-        ]
+        ],
+        "extra_description": "Gain unique powers and attributes tied to the path of strength momentum strike."
     },
     "skill_strength_armor_breaker": {
         "title": "Armor Breaker",
-        "description": "Melee attacks reduce enemy armor temporarily.",
+        "description": "Master the art of strength armor breaker to gain an advantage in combat.",
         "icon": {
             "type": "item",
             "data": {
-                "item": "minecraft:anvil"
+                "item": "simplyswords:ribboncleaver"
             }
         },
         "frame": {
@@ -451,11 +516,12 @@
                     "power": "bugboys:skilltree/strength_armor_breaker"
                 }
             }
-        ]
+        ],
+        "extra_description": "Gain unique powers and attributes tied to the path of strength armor breaker."
     },
     "skill_strength_unyielding_might": {
         "title": "Unyielding Might",
-        "description": "Increases attack damage after blocking an attack or when using heavy weapons.",
+        "description": "Master the art of strength unyielding might to gain an advantage in combat.",
         "icon": {
             "type": "item",
             "data": {
@@ -475,10 +541,11 @@
                     "power": "bugboys:skilltree/strength_unyielding_might"
                 }
             }
-        ]
+        ],
+        "extra_description": "Gain unique powers and attributes tied to the path of strength unyielding might."
     },
     "attribute_strength_armor_shred": {
-        "title": "Attribute Strength Armor Shred",
+        "title": "Armor Shred",
         "rewards": [
             {
                 "type": "puffish_skills:attribute",
@@ -492,15 +559,16 @@
         "icon": {
             "type": "item",
             "data": {
-                "item": "minecraft:shears"
+                "item": "simplyswords:ribboncleaver"
             }
         },
         "metadata": {
             "icon": "he7ojv4wju36wjjl"
-        }
+        },
+        "description": "+5% Armor Shred"
     },
     "attribute_strength_attack_damage": {
-        "title": "Attribute Strength Attack Damage",
+        "title": "Attack Damage",
         "rewards": [
             {
                 "type": "puffish_skills:attribute",
@@ -514,15 +582,16 @@
         "icon": {
             "type": "item",
             "data": {
-                "item": "minecraft:stone_sword"
+                "item": "simplyswords:iron_greataxe"
             }
         },
         "metadata": {
             "icon": "srswjhiwilmexff9"
-        }
+        },
+        "description": "+100% Attack Damage"
     },
     "attribute_strength_attack_range": {
-        "title": "Attribute Strength Attack Range",
+        "title": "Attack Range",
         "rewards": [
             {
                 "type": "puffish_skills:attribute",
@@ -541,10 +610,11 @@
         },
         "metadata": {
             "icon": "ap13wedshq3dz56y"
-        }
+        },
+        "description": "+50% Attack Range"
     },
     "attribute_strength_crit_damage": {
-        "title": "Attribute Strength Crit Damage",
+        "title": "Crit Damage",
         "rewards": [
             {
                 "type": "puffish_skills:attribute",
@@ -563,10 +633,11 @@
         },
         "metadata": {
             "icon": "5icb4sfzav973mpx"
-        }
+        },
+        "description": "+5% Crit Damage"
     },
     "attribute_strength_knockback": {
-        "title": "Attribute Strength Knockback",
+        "title": "Knockback",
         "rewards": [
             {
                 "type": "puffish_skills:attribute",
@@ -585,10 +656,11 @@
         },
         "metadata": {
             "icon": "w0qddin891g5sem1"
-        }
+        },
+        "description": "+25% Knockback"
     },
     "attribute_strength_knockback_resist": {
-        "title": "Attribute Strength Knockback Resist",
+        "title": "Knockback Resist",
         "rewards": [
             {
                 "type": "puffish_skills:attribute",
@@ -602,22 +674,31 @@
         "icon": {
             "type": "item",
             "data": {
-                "item": "minecraft:obsidian"
+                "item": "minecraft:shield"
             }
         },
         "metadata": {
             "icon": "5ank2o1ml3l8d9yv"
-        }
+        },
+        "description": "+10% Knockback Resist"
     },
     "root_vitality": {
-        "title": "Root Vitality",
+        "title": "Path of Vitality",
         "rewards": [
             {
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "minecraft:generic.max_health",
-                    "value": 2,
-                    "operation": "add"
+                    "value": 4.0,
+                    "operation": "addition"
+                }
+            },
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "zenith_attributes:healing_received",
+                    "value": 0.05,
+                    "operation": "addition"
                 }
             }
         ],
@@ -629,11 +710,13 @@
         },
         "metadata": {
             "icon": "erore3gnmwzkjncg"
-        }
+        },
+        "description": "Embark on the path of vitality and shape your destiny. (For more details, hold Shift)",
+        "extra_description": "Grants the following bonuses:\n+4.0 Max Health\n+5% Healing Received"
     },
     "skill_vitality_second_wind": {
         "title": "Second Wind",
-        "description": "Heal a percentage of missing HP after dropping below a threshold.",
+        "description": "Master the art of vitality second wind to gain an advantage in combat.",
         "icon": {
             "type": "item",
             "data": {
@@ -653,15 +736,16 @@
                     "power": "bugboys:skilltree/vitality_second_wind"
                 }
             }
-        ]
+        ],
+        "extra_description": "Gain unique powers and attributes tied to the path of vitality second wind."
     },
     "skill_vitality_iron_resolve": {
         "title": "Iron Resolve",
-        "description": "Reduces incoming damage and grants bonus health regen while below 50% HP.",
+        "description": "Master the art of vitality iron resolve to gain an advantage in combat.",
         "icon": {
             "type": "item",
             "data": {
-                "item": "minecraft:totem_of_undying"
+                "item": "minecraft:netherite_block"
             }
         },
         "frame": {
@@ -677,11 +761,12 @@
                     "power": "bugboys:skilltree/vitality_iron_resolve"
                 }
             }
-        ]
+        ],
+        "extra_description": "Gain unique powers and attributes tied to the path of vitality iron resolve."
     },
     "skill_vitality_guardians_aura": {
-        "title": "Guardian\u2019s Aura",
-        "description": "Passively grants allies nearby a regeneration aura.",
+        "title": "Guardians Aura",
+        "description": "Master the art of vitality guardians aura to gain an advantage in combat.",
         "icon": {
             "type": "item",
             "data": {
@@ -701,10 +786,11 @@
                     "power": "bugboys:skilltree/vitality_guardians_aura"
                 }
             }
-        ]
+        ],
+        "extra_description": "Gain unique powers and attributes tied to the path of vitality guardians aura."
     },
     "attribute_vitality_healing_received": {
-        "title": "Attribute Vitality Healing Received",
+        "title": "Healing Received",
         "rewards": [
             {
                 "type": "puffish_skills:attribute",
@@ -718,15 +804,16 @@
         "icon": {
             "type": "item",
             "data": {
-                "item": "minecraft:ghast_tear"
+                "item": "minecraft:golden_carrot"
             }
         },
         "metadata": {
             "icon": "g4oms97w69o4ljwa"
-        }
+        },
+        "description": "+5% Healing Received"
     },
     "attribute_vitality_life_steal": {
-        "title": "Attribute Vitality Life Steal",
+        "title": "Life Steal",
         "rewards": [
             {
                 "type": "puffish_skills:attribute",
@@ -740,15 +827,16 @@
         "icon": {
             "type": "item",
             "data": {
-                "item": "minecraft:nether_wart"
+                "item": "simplyswords:soulrender"
             }
         },
         "metadata": {
             "icon": "pyu010q7w5ib05n5"
-        }
+        },
+        "description": "+2% Life Steal"
     },
     "attribute_vitality_max_health": {
-        "title": "Attribute Vitality Max Health",
+        "title": "Max Health",
         "rewards": [
             {
                 "type": "puffish_skills:attribute",
@@ -762,15 +850,16 @@
         "icon": {
             "type": "item",
             "data": {
-                "item": "minecraft:apple"
+                "item": "minecraft:totem_of_undying"
             }
         },
         "metadata": {
             "icon": "43dj3ximrchr5076"
-        }
+        },
+        "description": "+200% Max Health"
     },
     "attribute_vitality_overheal": {
-        "title": "Attribute Vitality Overheal",
+        "title": "Overheal",
         "rewards": [
             {
                 "type": "puffish_skills:attribute",
@@ -784,12 +873,13 @@
         "icon": {
             "type": "item",
             "data": {
-                "item": "minecraft:sweet_berries"
+                "item": "minecraft:enchanted_golden_apple"
             }
         },
         "metadata": {
             "icon": "bq2b9seelz422b3s"
-        }
+        },
+        "description": "+100% Overheal"
     },
     "end_archer": {
         "title": "Archer",
@@ -805,7 +895,7 @@
         "icon": {
             "type": "item",
             "data": {
-                "item": "minecraft:target"
+                "item": "archers:composite_longbow"
             }
         },
         "frame": {
@@ -816,7 +906,9 @@
         },
         "metadata": {
             "icon": "57pud115nhqlf7jf"
-        }
+        },
+        "description": "Unlock the pinnacle of archer and become a legend.",
+        "extra_description": "Gain unique powers and attributes tied to the path of archer."
     },
     "end_beserker": {
         "title": "Beserker",
@@ -832,7 +924,7 @@
         "icon": {
             "type": "item",
             "data": {
-                "item": "minecraft:iron_sword"
+                "item": "rogues:netherite_berserker_armor_chest"
             }
         },
         "frame": {
@@ -843,7 +935,9 @@
         },
         "metadata": {
             "icon": "ucrroazrdx5nxcbm"
-        }
+        },
+        "description": "Unlock the pinnacle of beserker and become a legend.",
+        "extra_description": "Gain unique powers and attributes tied to the path of beserker."
     },
     "end_elementalist": {
         "title": "Elementalist",
@@ -859,7 +953,7 @@
         "icon": {
             "type": "item",
             "data": {
-                "item": "minecraft:enchanted_book"
+                "item": "wizards:wand_novice"
             }
         },
         "frame": {
@@ -870,7 +964,9 @@
         },
         "metadata": {
             "icon": "2pzqfoslaadn1vtm"
-        }
+        },
+        "description": "Unlock the pinnacle of elementalist and become a legend.",
+        "extra_description": "Gain unique powers and attributes tied to the path of elementalist."
     },
     "end_knight": {
         "title": "Knight",
@@ -886,7 +982,7 @@
         "icon": {
             "type": "item",
             "data": {
-                "item": "minecraft:shield"
+                "item": "simplyswords:iron_longsword"
             }
         },
         "frame": {
@@ -897,7 +993,9 @@
         },
         "metadata": {
             "icon": "axncwmqcrwdx3vlg"
-        }
+        },
+        "description": "Unlock the pinnacle of knight and become a legend.",
+        "extra_description": "Gain unique powers and attributes tied to the path of knight."
     },
     "end_paladin": {
         "title": "Paladin",
@@ -913,7 +1011,7 @@
         "icon": {
             "type": "item",
             "data": {
-                "item": "minecraft:golden_sword"
+                "item": "paladins:paladin_armor_chest"
             }
         },
         "frame": {
@@ -924,7 +1022,9 @@
         },
         "metadata": {
             "icon": "zb3kbypftnunld2t"
-        }
+        },
+        "description": "Unlock the pinnacle of paladin and become a legend.",
+        "extra_description": "Gain unique powers and attributes tied to the path of paladin."
     },
     "end_rogue": {
         "title": "Rogue",
@@ -940,7 +1040,7 @@
         "icon": {
             "type": "item",
             "data": {
-                "item": "minecraft:crossbow"
+                "item": "rogues:netherite_assassin_armor_chest"
             }
         },
         "frame": {
@@ -951,15 +1051,17 @@
         },
         "metadata": {
             "icon": "k8nfvln05hjv5s8a"
-        }
+        },
+        "description": "Unlock the pinnacle of rogue and become a legend.",
+        "extra_description": "Gain unique powers and attributes tied to the path of rogue."
     },
     "end_spellblade": {
         "title": "Spellblade",
-        "description": "Master the fusion of physical combat and magic, blending swordsmanship with devastating spells.",
+        "description": "Unlock the pinnacle of spellblade and become a legend.",
         "icon": {
             "type": "item",
             "data": {
-                "item": "minecraft:diamond_sword"
+                "item": "spellbladenext:arcane_blade"
             }
         },
         "rewards": [
@@ -970,15 +1072,16 @@
                     "lock_command": "advancement revoke @s only bugboys:unlock_spellblade"
                 }
             }
-        ]
+        ],
+        "extra_description": "Gain unique powers and attributes tied to the path of spellblade."
     },
     "end_bruiser": {
         "title": "Bruiser",
-        "description": "A resilient warrior that relies on raw strength and durability to dominate enemies.",
+        "description": "Unlock the pinnacle of bruiser and become a legend.",
         "icon": {
             "type": "item",
             "data": {
-                "item": "minecraft:iron_chestplate"
+                "item": "simplyswords:iron_greathammer"
             }
         },
         "frame": {
@@ -995,6 +1098,7 @@
                     "lock_command": "advancement revoke @s only bugboys:class_necromancer"
                 }
             }
-        ]
+        ],
+        "extra_description": "Gain unique powers and attributes tied to the path of bruiser."
     }
 }
