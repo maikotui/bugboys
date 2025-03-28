@@ -955,57 +955,22 @@
     },
     "end_spellblade": {
         "title": "Spellblade",
-        "rewards": [
-            {
-                "type": "puffish_skills:command",
-                "data": {
-                    "unlock_command": "advancement grant @s only bugboys:class_spellblade",
-                    "lock_command": "advancement revoke @s only bugboys:class_spellblade"
-                }
-            }
-        ],
+        "description": "Master the fusion of physical combat and magic, blending swordsmanship with devastating spells.",
         "icon": {
             "type": "item",
             "data": {
                 "item": "minecraft:diamond_sword"
             }
         },
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "challenge"
-            }
-        },
-        "metadata": {
-            "icon": "1ke048jpj5w0tpiv"
-        }
-    },
-    "end_death_knight": {
-        "title": "Death Knight",
         "rewards": [
             {
                 "type": "puffish_skills:command",
                 "data": {
-                    "unlock_command": "advancement grant @s only bugboys:class_necromancer",
-                    "lock_command": "advancement revoke @s only bugboys:class_necromancer"
+                    "unlock_command": "advancement grant @s only bugboys:unlock_spellblade",
+                    "lock_command": "advancement revoke @s only bugboys:unlock_spellblade"
                 }
             }
-        ],
-        "icon": {
-            "type": "item",
-            "data": {
-                "item": "minecraft:wither_skeleton_skull"
-            }
-        },
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "challenge"
-            }
-        },
-        "metadata": {
-            "icon": "qbakxe5ynkin69fz"
-        }
+        ]
     },
     "end_bruiser": {
         "title": "Bruiser",
