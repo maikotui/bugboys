@@ -7,7 +7,7 @@
   "display": {
     "announce_to_chat": false,
     "description": {
-      "translate": "advancement.bugboys.unlock_spellbook_fire.desc"
+      "translate": "advancement.bugboys.unlock_spell_death_knights_festering_strike.desc"
     },
     "frame": "task",
     "hidden": true,
@@ -16,7 +16,7 @@
     },
     "show_toast": false,
     "title": {
-      "translate": "advancement.bugboys.unlock_spellbook_fire.title"
+      "translate": "advancement.bugboys.unlock_spell_death_knights_festering_strike.title"
     }
   },
   "requirements": [

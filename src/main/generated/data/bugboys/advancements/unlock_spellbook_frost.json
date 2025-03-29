@@ -5,16 +5,16 @@
     }
   },
   "display": {
-    "announce_to_chat": true,
+    "announce_to_chat": false,
     "description": {
       "translate": "advancement.bugboys.unlock_spellbook_frost.desc"
     },
     "frame": "task",
-    "hidden": false,
+    "hidden": true,
     "icon": {
       "item": "minecraft:enchanted_book"
     },
-    "show_toast": true,
+    "show_toast": false,
     "title": {
       "translate": "advancement.bugboys.unlock_spellbook_frost.title"
     }

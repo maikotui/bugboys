@@ -1,72 +1,17 @@
 package dev.maikotui.bugboys;
 
-import net.minecraft.advancement.Advancement;
-import net.minecraft.advancement.AdvancementProgress;
-import net.minecraft.server.network.ServerPlayerEntity;
-import net.minecraft.text.Text;
-import net.minecraft.util.Identifier;
-import net.puffish.skillsmod.SkillsMod;
-
 import java.util.List;
-import java.util.Objects;
 
 public class Utils {
-    public static final List<String> SPELLBOOK_IDS = List.of(
-            // Wizards
-            "arcane",
-            "fire",
-            "frost",
-            // Rogues and Warriors
-            "rogue",
-            "warrior",
-            // Archer
-            "archer",
-            // Spellblades
-            "frost_battlemage",
-            "fire_battlemage",
-            "arcane_battlemage",
-            "runic_echoes",
-            "phoenix",
-            "deathchill",
-            "vengeance",
-            "defiance",
-            // Paladins and Priests
-            "paladin",
-            "priest",
-            // Death Knights
-            "blood",
-            "unholy",
-            "frost"
-    );
+    public static final List<String> SPELLBOOK_IDS = List.of("archers:archer_spell_book", "death_knights:blood_spell_book", "death_knights:unholy_spell_book", "death_knights:frost_spell_book", "wizards:arcane_spell_book", "wizards:fire_spell_book", "wizards:frost_spell_book", "rogues:rogue_spell_book", "rogues:warrior_spell_book", "paladins:paladin_spell_book", "paladins:priest_spell_book", "spellbladenext:frost_battlemage_spell_book", "spellbladenext:fire_battlemage_spell_book", "spellbladenext:arcane_battlemage_spell_book", "spellbladenext:runic_echoes_spell_book", "spellbladenext:phoenix_spell_book", "spellbladenext:deathchill_spell_book", "spellbladenext:vengeance_spell_book", "spellbladenext:defiance_spell_book");
+
+    public static final List<String> SPELL_IDS = List.of("spellbladenext:spellstrike2", "death_knights:dark_command", "spellbladenext:circle_of_healing", "paladins:holy_beam", "spellbladenext:riflebarrage", "death_knights:lesser_obliterate", "spellbladenext:spellstrike", "wizards:arcane_beam", "wizards:fire_wall", "spellbladenext:gem_barrage", "spellbladenext:particlesholy", "spell_engine:use_item", "spellbladenext:lightningslash", "spellbladenext:overblaze", "spellbladenext:arcaneoverdrive", "spellbladenext:fireflourish", "death_knights:lesser_death_strike", "wizards:fire_scorch", "death_knights:frost_strike", "wizards:arcane_blink", "spellbladenext:defiance_of_destiny_heal", "spellbladenext:frostbloom0", "spellbladenext:defiance_of_destiny", "spellbladenext:frostbloom1", "wizards:arcane_bolt", "death_knights:death_grip", "spellbladenext:thesis", "spellbladenext:frostbloom4", "spellbladenext:frostbloom2", "spellbladenext:frostbloom3", "death_knights:remorseless_winter", "spellbladenext:flameslash", "spellbladenext:lightningstep", "archers:barrage", "spellbladenext:blastfrost", "paladins:barrier", "spellbladenext:starfall", "spellbladenext:fireball", "wizards:frost_shard", "death_knights:marrowrend", "death_knights:agonizing_breath", "death_knights:death_strike", "spellbladenext:deathchill2", "rogues:throw", "archers:entangling_roots", "rogues:shadow_step", "spellbladenext:deathchill", "rogues:charge", "spellbladenext:phoenixdive", "spellbladenext:magus_firenova", "spellbladenext:xslash", "spellbladenext:grandstanding", "spellbladenext:maelstrom", "archers:power_shot", "wizards:frost_nova", "spellbladenext:finalstrike", "spellbladenext:blastfire", "spellbladenext:inexorable", "spellbladenext:flamelance", "spellbladenext:sniper", "spellbladenext:frostslash", "spellbladenext:protect", "spellbladenext:frostbolt", "spellbladenext:smite", "death_knights:epidemic", "spellbladenext:inferno", "spell_engine:use_offhand_item", "spellbladenext:frostblink", "paladins:heal", "spellbladenext:monkeyreflect", "wizards:frost_shield", "rogues:shout", "rogues:vanish", "spellbladenext:arcaneflourish", "rogues:whirlwind", "spellbladenext:whirlwind", "paladins:divine_protection", "spellbladenext:arcane_swirl", "paladins:battle_banner", "spellbladenext:bulwark", "wizards:fireball", "spellbladenext:arcane_missile", "spellbladenext:overpower", "paladins:judgement", "spellbladenext:eviscerate", "spellbladenext:echoes", "spellbladenext:combustion", "wizards:fire_breath", "spellbladenext:soul_of_vengeance", "spellbladenext:monkeyslam", "wizards:arcane_missile", "wizards:frost_blizzard", "spellbladenext:frostvert", "spellbladenext:lightningoverdrive", "death_knights:festering_strike", "spellbladenext:frostoverdrive", "spellbladenext:blastlightning", "spellbladenext:shield_shatter", "spellbladenext:eldritchblast", "spellbladenext:tempest", "spellbladenext:snuffout", "spellbladenext:box", "death_knights:obliterate", "spellbladenext:challenge", "spellbladenext:frostgrasp", "spellbladenext:fireoverdrive", "paladins:flash_heal", "spellbladenext:monkeydash", "spellbladenext:staffstrike", "spellbladenext:bolster", "wizards:arcane_blast", "spellbladenext:blastarcane", "spellbladenext:rebuke", "death_knights:lesser_festering_strike", "death_knights:death_coil", "spellbladenext:frostflourish", "paladins:holy_shock", "rogues:slice_and_dice", "spellbladenext:whirlingblades", "spellbladenext:coldbuff", "paladins:circle_of_healing", "archers:magic_arrow", "spellbladenext:bladestorm", "spellbladenext:gem_barrage2", "spellbladenext:flicker_strike", "rogues:shock_powder", "death_knights:blood_boil", "spellbladenext:reckoning", "wizards:frostbolt", "spellbladenext:amethystslash", "wizards:fire_meteor", "spellbladenext:fervoussmite");
 
     public static String GenerateSpellbookAdvancementPath(String spellbookId) {
-        return "unlock_spellbook_" + spellbookId;
+        return "unlock_spellbook_" + spellbookId.replace(':', '_');
     }
 
-    public static void RevokeAllSpellbookAdvancements(ServerPlayerEntity player) {
-        for (String spellbookId : SPELLBOOK_IDS) {
-            Identifier advancementId = new Identifier("bugboys", GenerateSpellbookAdvancementPath(spellbookId));
-            RevokeAdvancement(player, advancementId);
-        }
-        player.sendMessage(Text.literal("Your magical knowledge fades..."), true);
-    }
-
-    public static void RevokeAdvancement(ServerPlayerEntity player, Identifier advancementId) {
-        Advancement advancement = Objects.requireNonNull(player.getServer()).getAdvancementLoader().get(advancementId);
-        if (advancement != null) {
-            AdvancementProgress progress = player.getAdvancementTracker().getProgress(advancement);
-            for (String criterion : progress.getObtainedCriteria()) {
-                player.getAdvancementTracker().revokeCriterion(advancement, criterion);
-            }
-        }
-    }
-
-    public static void ResetPufferfishSkillsCategory(ServerPlayerEntity player, Identifier categoryId) {
-        SkillsMod skillsMod = SkillsMod.getInstance();
-        int spentPoints = skillsMod.getSpentPoints(player, categoryId).orElse(0);
-        int refundAmount = spentPoints * 1;
-        skillsMod.resetSkills(player, categoryId);
-        skillsMod.addPoints(player, categoryId, new Identifier("bugboys", "orb_refund"), refundAmount, false);
-        player.sendMessage(Text.literal("Your skill tree has been reset. " + refundAmount + " points refunded."), false);
+    public static String GenerateSpellAdvancementPath(String spellId) {
+        return "unlock_spell_" + spellId.replace(':', '_');
     }
 }
