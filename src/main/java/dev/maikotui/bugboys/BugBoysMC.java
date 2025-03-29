@@ -33,6 +33,7 @@ public class BugBoysMC implements ModInitializer {
 		ServerLifecycleEvents.SERVER_STARTED.register((MinecraftServer server) -> {
 			List<String> spells = new ArrayList<>();
 			for (Map.Entry<Identifier, SpellRegistry.SpellEntry> entry : SpellRegistry.all().entrySet()) {
+				LOGGER.info("spell {} from school {} with tier {}", entry.getKey(), entry.getValue().spell.school.id, entry.getValue().spell.learn.tier);
 				spells.add('"' + entry.getKey().toString() + '"');
 			}
 			LOGGER.info("Registered Spells:\n[{}]", String.join(", ", spells));

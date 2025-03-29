@@ -69,6 +69,7 @@ dependencies {
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${fabric_version}"
 
 	modImplementation "maven.modrinth:spell-engine:${spell_engine_version}"
+	modImplementation "maven.modrinth:spell-power:${spell_power_version}"
 	modImplementation "maven.modrinth:revelationary:${revelationary_version}"
 	modImplementation "com.github.apace100:origins-fabric:${origins_version}"
 	modImplementation "net.puffish:skillsmod:${puffish_skills_version}:fabric"
